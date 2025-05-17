@@ -6,6 +6,8 @@ Estas operaciones incluyen la suma, la resta, la multiplicación y la división.
 
 La aritmética es fundamental para el estudio de las matemáticas y se utiliza en una amplia variedad de aplicaciones en la vida cotidiana, desde calcular precios hasta medir distancias.
 
+---
+
 # **Operaciones Aritméticas Básicas**
 
 ## **Suma ($+$)**
@@ -64,6 +66,8 @@ El módulo es la operación que encuentra el residuo de la división de un núme
 
 Si tienes $10$ y lo divides por $3$, el residuo es $10 \mod 3 = 1$, porque $10$ dividido por $3$ da $3$ con un residuo de $1$.
 
+---
+
 ## **Jerarquía de Operaciones**
 
 En las operaciones aritméticas, es importante seguir un orden específico para realizar los cálculos correctamente. 
@@ -91,6 +95,8 @@ Si tienes la expresión $3 + 2 \times (4 - 1)^2$, debes seguir estos pasos:
 3. **Multiplicación**: Después, multiplica: $2 \times 9 = 18$.
 
 4. **Suma**: Finalmente, suma: $3 + 18 = 21$.
+
+---
 
 ## **Propiedades de las Operaciones Aritméticas**
 
@@ -144,6 +150,7 @@ Para la suma, el inverso aditivo de $a$ es $-a$: $a + (-a) = 0$ (por ejemplo, $5
 $
 Para la multiplicación, el inverso multiplicativo de $a$ es $\frac{1}{a}$ (si $a \neq 0$): $a \times \frac{1}{a} = 1$ (por ejemplo, $4 \times \frac{1}{4} = 1$).
 
+---
 
 # **Qué es un inverso aditivo y un inverso multiplicativo?**
 
