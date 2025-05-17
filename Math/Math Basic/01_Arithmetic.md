@@ -150,4 +150,3 @@ Para la multiplicación, el inverso multiplicativo de $a$ es $\frac{1}{a}$ (si $
 El inverso aditivo de un número es el número que, al sumarse con el original, da como resultado cero. Por ejemplo, el inverso aditivo de $5$ es $-5$, porque $5 + (-5) = 0$.
 
 El inverso multiplicativo de un número es el número que, al multiplicarse con el original, da como resultado uno. Por ejemplo, el inverso multiplicativo de $4$ es $\frac{1}{4}$, porque $4 \times \frac{1}{4} = 1$.
-
