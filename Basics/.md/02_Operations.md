@@ -265,10 +265,20 @@ lo que se ejecuta la primera parte del bloque if.}
 
 Esta tabla presenta un resumen de la simbología.
 
-  ---------------------------------------------------------------------------
-  Operador   Significado         En programación     Resultado esperado
-             matemático          Python              
-  ---------- ------------------- ------------------- ------------------------
+ | Operador  | Significado | En programación     | Resultado esperado matemático          Python              
+  ---------- ------------------- ------------------- -------------------
+  `>`        Mayor que           `a > b`             `True` si `a` \> `b`
+
+  `<`        Menor que           `a < b`             `True` si `a` \< `b`
+
+  `==`       Igual que           `a == b`            `True` si `a` es igual a
+                                                     `b`
+
+  `!=`       Diferente que       `a != b`            `True` si `a` ≠ `b`
+
+  `>=`       Mayor o igual que   `a >= b`            `True` si `a` ≥ `b`
+
+  `<=`       Menor o igual que   `a <= b`            `True` si `a` ≤ `b` |
   `>`        Mayor que           `a > b`             `True` si `a` \> `b`
 
   `<`        Menor que           `a < b`             `True` si `a` \< `b`
@@ -281,7 +291,6 @@ Esta tabla presenta un resumen de la simbología.
   `>=`       Mayor o igual que   `a >= b`            `True` si `a` ≥ `b`
 
   `<=`       Menor o igual que   `a <= b`            `True` si `a` ≤ `b`
-  ---------------------------------------------------------------------------
 
 ## **Mayor que (\>):** {#mayor-que-}
 
