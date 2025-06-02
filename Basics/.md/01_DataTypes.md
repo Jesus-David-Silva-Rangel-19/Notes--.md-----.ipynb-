@@ -119,16 +119,16 @@ print("Conjunto:", h, type(h))
 
 # Tabla de tipos de datos en Python
 
- | Tipo de dato |  Nombre         |     Ejemplo            |
- | -------------- | ------------- | ---------------------- |
-| `str`         | Texto         |   `"Hola, mundo"`        |
-|  `int`         | Entero       |   `42`                   |
-|  `float`      | Decimal       |   `3.14`                 |
-|  `bool`        | Booleano     |   `True`, `False`        |
-|  `list`       | Lista         |   `[1, 2, 3]`            |
-|  `dict`       | Diccionario   |   `{"clave": "valor"}`   |
-|  `tuple`      | Tupla         |   `(1, 2, 3)`            |
-|  `set`        | Conjunto      |   `{1, 2, 3}`            |
+| Tipo de dato | Nombre      | Ejemplo              |
+|--------------|-------------|----------------------|
+| `str`        | Texto       | `"Hola, mundo"`      |
+| `int`        | Entero      | `42`                 |
+| `float`      | Decimal     | `3.14`               |
+| `bool`       | Booleano    | `True`, `False`      |
+| `list`       | Lista       | `[1, 2, 3]`          |
+| `dict`       | Diccionario | `{"clave": "valor"}` |
+| `tuple`      | Tupla       | `(1, 2, 3)`          |
+| `set`        | Conjunto    | `{1, 2, 3}`          |
 
 ## **Ejemplos completos de tipos de datos en Python**
 
@@ -238,7 +238,9 @@ mi_lista = [1, 2, 3, "Hola", True]
 print("Lista:", mi_lista, type(mi_lista))
 ```
 > **Descripción:** Este ejemplo muestra cómo declarar una lista que contiene diferentes tipos de datos y su tipo.
+
 > **Salida:** `[1, 2, 3, 'Hola', True] <class 'list'>`
+
 > **Nota:** Las listas son mutables, lo que significa que puedes modificar su contenido después de haberlas creado.
 
 ## **¿Qué son los diccionarios?**
@@ -262,7 +264,9 @@ tupla = (1, 2, 3)
 print("Tupla:", tupla, type(tupla))
 ```
 > **Descripción:** Este ejemplo muestra cómo declarar una tupla, que es similar a una lista pero inmutable, y su tipo.
+
 > **Salida:** `(1, 2, 3) <class 'tuple'>`
+
 > **Nota:** Las tuplas son útiles para almacenar datos que no deben cambiar, como coordenadas o fechas.
 
 
@@ -273,5 +277,7 @@ conjunto = {1, 2, 3, 4, 5}
 print("Conjunto:", conjunto, type(conjunto))
 ```
 > **Descripción:** Este ejemplo muestra cómo declarar un conjunto, que almacena elementos únicos, y su tipo.
+
 > **Salida:** `{1, 2, 3, 4, 5} <class 'set'>`
+
 > **Nota:** Los conjuntos son útiles para realizar operaciones matemáticas como la unión, intersección y diferencia.

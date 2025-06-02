@@ -1,17 +1,20 @@
-# Operaciones básicas
+# Python: Operaciones básicas
 
 ## **Tabla de operadores**
 
-| Operador | Significado | En programación | Resultado esperado |
-|----------|-------------|-----------------|--------------------|
-| `+`      | Suma        | `a + b`         | `3 + 10 = 13`            |
-| `-`      | Resta       | `a - b`         | `3 - 10 = -7`            |
-| `*`      | Multiplicación | `a * b`     | `3 * 10 = 30`            |
-| `/`      | División    | `a / b`         | `3 / 10 = 0.3`            |
-| `**`     | Potencia    | `a ** b`        | `3 ** 2 = 9`           |
-| `//`     | División entera | `a // b`   | `3 // 2 = 1`           |
-| `%`      | Módulo      | `a % b`         | `3 % 2 = 1`           |
+La siguiente tabla muestra los operadores básicos en Python, su significado, su uso en programación y el resultado esperado.
 
+| Operador | Significado     | En programación | Resultado esperado |
+| -------- | --------------- | --------------- | ------------------ |
+| `+`      | Suma            | `a + b`         | `3 + 10 = 13`      |
+| `-`      | Resta           | `a - b`         | `3 - 10 = -7`      |
+| `*`      | Multiplicación  | `a * b`         | `3 * 10 = 30`      |
+| `/`      | División        | `a / b`         | `3 / 10 = 0.3`     |
+| `**`     | Potencia        | `a ** b`        | `3 ** 2 = 9`       |
+| `//`     | División entera | `a // b`        | `3 // 2 = 1`       |
+| `%`      | Módulo          | `a % b`         | `3 % 2 = 1`        |
+
+**Ejemplos:**
 
 ```python
 a = 10
@@ -35,11 +38,9 @@ print('Módulo:', módulo)
 ```
 # **¿Cuáles son y qué son las operaciones básicas?**
 
-- **Suma:** Se representa con el símbolo ($+$) y permite agregar dos o más
-  números.
+- **Suma:** Se representa con el símbolo ($+$) y permite agregar dos o más números.
 
-- **Resta:** Se representa con el símbolo ($-$) y permite sustraer un
-  número de otro.
+- **Resta:** Se representa con el símbolo ($-$) y permite sustraer un número de otro.
 
 - **Multiplicación:** Se representa con los símbolos $\times$, ($\cdot$) o mediante omisión del signo. En Python, se usa `*`.
 
@@ -108,7 +109,6 @@ $$2^3 = 8$$
 $$4^2 = 16$$
 
 
-
 ## **¿Qué es la división entera?**
 
 La división entera consiste en obtener solo la parte entera del cociente
@@ -155,7 +155,6 @@ resultado = a - b
 print(resultado)  # Salida: 3
 ```
 
-------------------------------------------------------------------------
 
 ## **Multiplicación**
 
@@ -167,7 +166,6 @@ resultado = a * b
 print(resultado)  # Salida: 20
 ```
 
-------------------------------------------------------------------------
 
 ## **División**
 
@@ -179,7 +177,6 @@ resultado = a / b
 print(resultado)  # Salida: 3.0
 ```
 
-------------------------------------------------------------------------
 
 # **División entera**
 
@@ -191,7 +188,6 @@ resultado = a // b
 print(resultado)  # Salida: 3
 ```
 
-------------------------------------------------------------------------
 
 # **Módulo**
 
@@ -203,7 +199,6 @@ resultado = a % b
 print(resultado)  # Salida: 1
 ```
 
-------------------------------------------------------------------------
 
 # **Potencia**
 
@@ -259,40 +254,22 @@ else:
 En este ejemplo, la operación de comparación `a > b` devuelve True, por
 lo que se ejecuta la primera parte del bloque if.}
 
-------------------------------------------------------------------------
+
 
 ## **Tabla de simbología**
 
 Esta tabla presenta un resumen de la simbología.
 
- | Operador  | Significado | En programación     | Resultado esperado matemático          Python              
-  ---------- ------------------- ------------------- -------------------
-  `>`        Mayor que           `a > b`             `True` si `a` \> `b`
+| Operador | Significado         | En programación | Resultado esperado (matemático / Python)         |
+|----------|---------------------|-----------------|--------------------------------------------------|
+| `>`      | Mayor que           | `a > b`         | `True` si `a` > `b`                              |
+| `<`      | Menor que           | `a < b`         | `True` si `a` < `b`                              |
+| `==`     | Igual que           | `a == b`        | `True` si `a` es igual a `b`                     |
+| `!=`     | Diferente que       | `a != b`        | `True` si `a` ≠ `b`                              |
+| `>=`     | Mayor o igual que   | `a >= b`        | `True` si `a` ≥ `b`                              |
+| `<=`     | Menor o igual que   | `a <= b`        | `True` si `a` ≤ `b`                              |
 
-  `<`        Menor que           `a < b`             `True` si `a` \< `b`
-
-  `==`       Igual que           `a == b`            `True` si `a` es igual a
-                                                     `b`
-
-  `!=`       Diferente que       `a != b`            `True` si `a` ≠ `b`
-
-  `>=`       Mayor o igual que   `a >= b`            `True` si `a` ≥ `b`
-
-  `<=`       Menor o igual que   `a <= b`            `True` si `a` ≤ `b` |
-  `>`        Mayor que           `a > b`             `True` si `a` \> `b`
-
-  `<`        Menor que           `a < b`             `True` si `a` \< `b`
-
-  `==`       Igual que           `a == b`            `True` si `a` es igual a
-                                                     `b`
-
-  `!=`       Diferente que       `a != b`            `True` si `a` ≠ `b`
-
-  `>=`       Mayor o igual que   `a >= b`            `True` si `a` ≥ `b`
-
-  `<=`       Menor o igual que   `a <= b`            `True` si `a` ≤ `b`
-
-## **Mayor que (\>):** {#mayor-que-}
+## **Mayor que (>):**
 
 **Matemáticamente:** Se usa para expresar que un número es mayor que
 otro. `<br>`{=html} **En Python:** Evalúa si el valor de la izquierda es
@@ -304,10 +281,9 @@ b = 5
 print("¿a > b?", a > b)  # True, porque 7 es mayor que 5
 ```
 
-## **Menor que (\<):** {#menor-que-}
+## **Menor que (<):** 
 
-**Matemáticamente:** Se usa para expresar que un número es menor que
-otro. `<br>`{=html} **En Python:** Evalúa si el valor de la izquierda es
+**Matemáticamente:** Se usa para expresar que un número es menor que otro. `<br>` **En Python:** Evalúa si el valor de la izquierda es
 menor que el de la derecha.
 
 ``` python
@@ -319,7 +295,7 @@ print("¿a < b?", a < b)  # True, porque 2 es menor que 6
 ```
 
 
-## **Igual que (==):** {#igual-que-}
+## **Igual que (==):**
 
 **Matemáticamente:** Se usa para afirmar que dos cantidades son iguales.
 `<br>`{=html} **En Python:** Compara si ambos valores son exactamente
@@ -332,27 +308,24 @@ b = 4
 print("¿a == b?", a == b)  # True, porque ambos son iguales
 ```
 
-------------------------------------------------------------------------
 
-## **Diferente que (!=):** {#diferente-que-}
+## **Diferente que (!=):** 
 
 **Matemáticamente:** Se usa para indicar que dos cantidades no son
 iguales. `<br>`{=html} **En Python:** Evalúa si los valores son
 distintos.
 
 ``` python
-
 a = 8
 b = 10
 print("¿a != b?", a != b)  # True, porque 8 es diferente de 10
 ```
 
-------------------------------------------------------------------------
-
-## **Mayor o igual que (\>=):** {#mayor-o-igual-que-}
+## **Mayor o igual que (>=):
 
 **Matemáticamente:** Indica que un número es mayor o igual a otro.
-`<br>`{=html} **En Python:** Devuelve `True` si el valor de la izquierda
+
+**En Python:** Devuelve `True` si el valor de la izquierda
 es mayor o igual al de la derecha.
 
 ``` python
@@ -363,12 +336,11 @@ mayor_igual_que = a >= b # se usa (>=)
 print('Mayor o igual que:', mayor_igual_que)
 ```
 
-------------------------------------------------------------------------
-
-## **Menor o igual que (\<=):** {#menor-o-igual-que-}
+## **Menor o igual que (<=):**
 
 **Matemáticamente:** Indica que un número es menor o igual a otro.
-`<br>`{=html} **En Python:** Devuelve `True` si el valor de la izquierda
+
+**En Python:** Devuelve `True` si el valor de la izquierda
 es menor o igual al de la derecha.
 
 ``` python
@@ -378,14 +350,9 @@ menor_igual_que = a <= b # se usa (<=)
 print('Menor o igual que:', menor_igual_que)
 ```
 
-------------------------------------------------------------------------
-:::
 
-::: {#cd83df40 .cell .markdown}
 # Operaciones lógicas
-:::
 
-::: {#5d4ab705 .cell .code}
 ``` python
 a = True
 b = False
@@ -399,28 +366,26 @@ print('not a:', not a) # se usa (not)
 print('not b:', not b) # se usa (not)
 print('----------------------------------')
 ```
-:::
 
-::: {#584746e3 .cell .markdown}
 # **¿Qué son las operaciones lógicas?**
 
-Las operaciones lógicas son operaciones que se realizan sobre valores
-booleanos (True o False).
+Las operaciones lógicas son operaciones que se realizan sobre valores booleanos (True o False).
 
 Las operaciones lógicas más comunes son:
 
 - **and**: devuelve True si ambos operandos son True.
-- **or**: devuelve True si al menos uno de los operandos es True.\|
+  
+- **or**: devuelve True si al menos uno de los operandos es True.
+
 - **not**: devuelve True si el operando es False y viceversa.
-- **xor**: devuelve True si uno de los operandos es True y el otro es
-  False.
+
+- **xor**: devuelve True si uno de los operandos es True y el otro es False.
+
 - **is**: devuelve True si ambos operandos son el mismo objeto.
+
 - **is not**: devuelve True si ambos operandos no son el mismo objeto.
 
-------------------------------------------------------------------------
-:::
 
-::: {#2d29a138 .cell .markdown}
 # **Ejemplos de operaciones lógicas con Python**
 
 ## **Operador lógico AND**
@@ -437,7 +402,6 @@ print('False and False:', False and False) # False
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico OR**
 
@@ -452,7 +416,6 @@ print('False or False:', False or False) # False
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico NOT**
 
@@ -466,7 +429,6 @@ print('not False:', not False) # True
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico XOR**
 
@@ -481,7 +443,6 @@ print('False ^ False:', False ^ False) # False
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico NAND**
 
@@ -496,7 +457,6 @@ print('False and False:', not (False and False)) # True
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico NOR**
 
@@ -511,7 +471,6 @@ print('False or False:', not (False or False)) # True
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico XNOR**
 
@@ -526,7 +485,6 @@ print('False ^ False:', not (False ^ False)) # True
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico IMPLIES**
 
@@ -542,7 +500,6 @@ print('False => False:', not False or False) # True
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico BICONDITIONAL**
 
@@ -558,7 +515,6 @@ print('False <=> False:', False == False) # True
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico NOT IMPLIES**
 
@@ -573,7 +529,6 @@ print('False => False:', not False or False) # True
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador lógico NOT BICONDITIONAL**
 
@@ -588,7 +543,6 @@ print('False <=> False:', not (False == False)) # False
 print('----------------------------------')
 ```
 
-------------------------------------------------------------------------
 :::
 
 ::: {#3af6ff55 .cell .markdown}
@@ -620,9 +574,7 @@ print('a //= b:', a)
 print('a %= b:', a)
 print('----------------------------------')
 ```
-:::
 
-::: {#64c1a539 .cell .markdown}
 ### Operaciones de Asignación en Python
 
 En Python, las **operaciones de asignación** permiten realizar una
@@ -730,7 +682,7 @@ aritmética con la asignación del valor resultante:
 El siguiente código muestra el uso de las operaciones de asignación
 mencionadas:
 
-\`\`\`python a = 10 b = 3
+```python a = 10 b = 3
 
 a += b \# a = a + b a -= b \# a = a - b a *= b \# a = a* b a /= b \# a =
 a / b a **= b \# a = a** b a //= b \# a = a // b a %= b \# a = a % b
@@ -742,11 +694,10 @@ print(\'a += b:\', a) print(\'a -= b:\', a) print(\'a \*= b:\', a)
 print(\'a /= b:\', a) print(\'a \*\*= b:\', a) print(\'a //= b:\', a)
 print(\'a %= b:\', a)
 print(\'\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\')
-:::
+:
 
 ::: {#a241a5e3 .cell .markdown vscode="{\"languageId\":\"latex\"}"}
 
-------------------------------------------------------------------------
 
 Las operaciones de asignación son aquellas que nos permiten asignar un
 valor a una variable. En Python, la operación de asignación se realiza
@@ -831,7 +782,6 @@ generador = (i**2 for i in range(10))
 
 ::: {#d905048b .cell .markdown}
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`+=`)** {#que-hace-la-asignación-}
 
@@ -841,7 +791,6 @@ izquierda. Por ejemplo, si `a = 10` y `b = 3`, entonces `a += b` es
 equivalente a `a = a + b`, lo que significa que `a` se convierte en
 `13`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`-=`)**
 
@@ -850,7 +799,6 @@ de la variable a la izquierda y asigna el resultado a la variable de la
 izquierda. Por ejemplo, si `a = 10` y `b = 3`, entonces `a -= b` es
 equivalente a `a = a - b`, lo que significa que `a` se convierte en `7`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`*=`)** {#que-hace-la-asignación--1}
 
@@ -860,7 +808,6 @@ variable de la izquierda. Por ejemplo, si `a = 10` y `b = 3`, entonces
 `a *= b` es equivalente a `a = a * b`, lo que significa que `a` se
 convierte en `30`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`/=`)** {#que-hace-la-asignación--2}
 
@@ -870,7 +817,6 @@ la izquierda. Por ejemplo, si `a = 10` y `b = 3`, entonces `a /= b` es
 equivalente a `a = a / b`, lo que significa que `a` se convierte en
 `3.3333333333333335`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`**=`)** {#que-hace-la-asignación--3}
 
@@ -880,7 +826,6 @@ la variable de la izquierda. Por ejemplo, si `a = 10` y `b = 3`,
 entonces `a **= b` es equivalente a `a = a ** b`, lo que significa que
 `a` se convierte en `1000`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`//=`)** {#que-hace-la-asignación--4}
 
@@ -890,7 +835,6 @@ la izquierda, redondeando hacia abajo al entero más cercano. Por
 ejemplo, si `a = 10` y `b = 3`, entonces `a //= b` es equivalente a
 `a = a // b`, lo que significa que `a` se convierte en `3`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`%=`)** {#que-hace-la-asignación--5}
 
@@ -900,7 +844,6 @@ asigna el resultado a la variable de la izquierda. Por ejemplo, si
 `a = 10` y `b = 3`, entonces `a %= b` es equivalente a `a = a % b`, lo
 que significa que `a` se convierte en `1`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`=`)** {#que-hace-la-asignación--6}
 
@@ -910,7 +853,6 @@ variable a la izquierda.
 Por ejemplo, si `a = 10` y `b = 3`, entonces `a = b` es equivalente a
 `a = 3`, lo que significa que `a` se convierte en `3`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`==`)** {#que-hace-la-asignación--7}
 
@@ -919,7 +861,6 @@ igual al valor de la variable a la derecha. Por ejemplo, si `a = 10` y
 `b = 3`, entonces `a == b` es equivalente a `10 == 3`, lo que significa
 que el resultado es `False`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`!=`)** {#que-hace-la-asignación--8}
 
@@ -928,7 +869,6 @@ diferente al valor de la variable a la derecha. Por ejemplo, si `a = 10`
 y `b = 3`, entonces `a != b` es equivalente a `10 != 3`, lo que
 significa que el resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`>`)** {#que-hace-la-asignación--9}
 
@@ -937,7 +877,6 @@ mayor que el valor de la variable a la derecha. Por ejemplo, si `a = 10`
 y `b = 3`, entonces `a > b` es equivalente a `10 > 3`, lo que significa
 que el resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`<`)** {#que-hace-la-asignación--10}
 
@@ -946,7 +885,6 @@ menor que el valor de la variable a la derecha. Por ejemplo, si `a = 10`
 y `b = 3`, entonces `a < b` es equivalente a `10 < 3`, lo que significa
 que el resultado es `False`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`>=`)** {#que-hace-la-asignación--11}
 
@@ -955,7 +893,6 @@ mayor o igual que el valor de la variable a la derecha. Por ejemplo, si
 `a = 10` y `b = 3`, entonces `a >= b` es equivalente a `10 >= 3`, lo que
 significa que el resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`<=`)** {#que-hace-la-asignación--12}
 
@@ -964,7 +901,6 @@ menor o igual que el valor de la variable a la derecha. Por ejemplo, si
 `a = 10` y `b = 3`, entonces `a <= b` es equivalente a `10 <= 3`, lo que
 significa que el resultado es `False`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`and`)**
 
@@ -972,7 +908,6 @@ La asignación `and` compara si ambas variables son verdaderas. Por
 ejemplo, si `a = True` y `b = False`, entonces `a and b` es equivalente
 a `True and False`, lo que significa que el resultado es `False`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`or`)**
 
@@ -981,7 +916,6 @@ verdadera. Por ejemplo, si `a = True` y `b = False`, entonces `a or b`
 es equivalente a `True or False`, lo que significa que el resultado es
 `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`not`)**
 
@@ -990,7 +924,6 @@ La asignación `not` invierte el valor de la variable.
 Por ejemplo, si `a = True`, entonces `not a` es equivalente a
 `not True`, lo que significa que el resultado es `False`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`is`)**
 
@@ -998,7 +931,6 @@ La asignación `is` compara si ambas variables son el mismo objeto en
 memoria. Por ejemplo, si `a = [1, 2, 3]` y `b = a`, entonces `a is b` es
 equivalente a `a is a`, lo que significa que el resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`is not`)**
 
@@ -1007,7 +939,6 @@ en memoria. Por ejemplo, si `a = [1, 2, 3]` y `b = [1, 2, 3]`, entonces
 `a is not b` es equivalente a `a is not a`, lo que significa que el
 resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`in`)**
 
@@ -1016,7 +947,6 @@ tupla o cadena. Por ejemplo, si `a = [1, 2, 3]` y `b = 2`, entonces
 `b in a` es equivalente a `2 in [1, 2, 3]`, lo que significa que el
 resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`not in`)**
 
@@ -1025,7 +955,6 @@ lista, tupla o cadena. Por ejemplo, si `a = [1, 2, 3]` y `b = 4`,
 entonces `b not in a` es equivalente a `4 not in [1, 2, 3]`, lo que
 significa que el resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`isinstance`)**
 
@@ -1034,7 +963,6 @@ específico. Por ejemplo, si `a = 10`, entonces `isinstance(a, int)` es
 equivalente a `isinstance(10, int)`, lo que significa que el resultado
 es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`issubclass`)**
 
@@ -1043,7 +971,6 @@ clase. Por ejemplo, si `class A: pass` y `class B(A): pass`, entonces
 `issubclass(B, A)` es equivalente a `issubclass(B, A)`, lo que significa
 que el resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`callable`)**
 
@@ -1052,7 +979,6 @@ si se puede llamar como una función). Por ejemplo, si
 `def func(): pass`, entonces `callable(func)` es equivalente a
 `callable(func)`, lo que significa que el resultado es `True`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`len`)**
 
@@ -1060,7 +986,6 @@ La asignación `len` devuelve la longitud de una lista, tupla o cadena.
 Por ejemplo, si `a = [1, 2, 3]`, entonces `len(a)` es equivalente a
 `len([1, 2, 3])`, lo que significa que el resultado es `3`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`max`)**
 
@@ -1069,7 +994,6 @@ conjunto. Por ejemplo, si `a = [1, 2, 3]`, entonces `max(a)` es
 equivalente a `max([1, 2, 3])`, lo que significa que el resultado es
 `3`.
 
-------------------------------------------------------------------------
 
 ### **Que hace la asignación (`min`)**
 
@@ -1078,7 +1002,6 @@ conjunto. Por ejemplo, si `a = [1, 2, 3]`, entonces `min(a)` es
 equivalente a `min([1, 2, 3])`, lo que significa que el resultado es
 `1`.
 
-------------------------------------------------------------------------
 :::
 
 ::: {#784acad1 .cell .markdown}
@@ -1111,7 +1034,6 @@ identificados por su dirección de memoria, y las operaciones de
 identidad nos permiten verificar si dos variables apuntan al mismo
 objeto o no.
 
-------------------------------------------------------------------------
 
 ## **¿Explicación de las operaciones de identidad?**
 
@@ -1126,7 +1048,6 @@ objeto o no.
 - `a is c`: Verifica si `a` y `c` son el mismo objeto en memoria.
 - `a is not c`: Verifica si `a` y `c` son objetos diferentes en memoria.
 
-------------------------------------------------------------------------
 
 ## **Operación (`is`)**
 
@@ -1145,7 +1066,6 @@ print(a is b)  # True, porque 'b' es una referencia al mismo objeto que 'a'
 print(a is c)  # False, porque 'c' es una copia de 'a', no el mismo objeto
 ```
 
-------------------------------------------------------------------------
 
 ## **Operación (`is not`)**
 
@@ -1166,7 +1086,6 @@ print(a is not b)  # False, porque 'b' es una referencia al mismo objeto que 'a'
 print(a is not c)  # True, porque 'c' es una copia de 'a', no el mismo objeto
 ```
 
-------------------------------------------------------------------------
 :::
 
 ::: {#e2abf971 .cell .code}
@@ -1191,7 +1110,6 @@ si un elemento pertenece a una secuencia (como una lista, tupla o cadena
 de texto). Se utilizan los operadores `in` y `not in` para comprobar la
 pertenencia de un elemento a una secuencia.
 
-------------------------------------------------------------------------
 
 ## **Operador (`in`)**
 
@@ -1216,7 +1134,6 @@ presente en la lista `numeros`. Si lo está, se imprime un mensaje
 indicando que está en la lista; de lo contrario, se indica que no está
 presente.
 
-------------------------------------------------------------------------
 
 ## **Operador (`not in`)**
 
@@ -1242,7 +1159,6 @@ presente en la lista `numeros`. Si no lo está, se imprime un mensaje
 indicando que no está en la lista; de lo contrario, se indica que está
 presente.
 
-------------------------------------------------------------------------
 :::
 
 ::: {#991374a4 .cell .markdown}
@@ -1279,7 +1195,6 @@ es 1. La operación XOR (\^) devuelve un nuevo número que tiene un bit en
 todos los bits del número. Las operaciones de desplazamiento (\<\< y
 \>\>) desplazan los bits a la izquierda o a la derecha, respectivamente.
 
-------------------------------------------------------------------------
 
 ## **Operador (`&`)** {#operador-}
 
@@ -1300,7 +1215,6 @@ resultado = a & b # 0010
 print(resultado) # 2
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador (`|`)** {#operador--1}
 
@@ -1322,7 +1236,6 @@ resultado = a | b # 1011
 print(resultado) # 11
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador (`^`)** {#operador--2}
 
@@ -1344,7 +1257,6 @@ resultado = a ^ b # 1001
 print(resultado) # 9
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador (`~`)** {#operador--3}
 
@@ -1363,7 +1275,6 @@ resultado = ~a # 11111111111111111111111111110101
 print(resultado) # -11
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador (`<<`)** {#operador--4}
 
@@ -1382,7 +1293,6 @@ resultado = a << 1 # 10100
 print(resultado) # 20
 ```
 
-------------------------------------------------------------------------
 
 ## **Operador (`>>`)** {#operador--5}
 
@@ -1414,5 +1324,4 @@ print('a << 1:', a << 1) # 10100
 print('a >> 1:', a >> 1) # 0101
 ```
 
-------------------------------------------------------------------------
 :::
