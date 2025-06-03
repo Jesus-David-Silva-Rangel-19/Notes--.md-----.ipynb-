@@ -1,0 +1,32 @@
+# **Simbolos y definiciones de álgebra lineal**
+
+- $\mathbb{R}$: Conjunto de números reales.
+- $\mathbb{C}$: Conjunto de números complejos.
+- $\mathbb{Z}$: Conjunto de números enteros.
+- $\mathbb{N}$: Conjunto de números naturales.
+- $\mathbb{Q}$: Conjunto de números racionales.
+- $\mathbb{R}^n$: Espacio vectorial de dimensión $n$ sobre los números reales.
+- $\mathbb{C}^n$: Espacio vectorial de dimensión $n$ sobre los números complejos.
+- $\mathbf{0}$: Vector nulo (vector con todos sus componentes iguales a cero).
+- $\mathbf{I}$: Matriz identidad (matriz cuadrada con unos en la diagonal y ceros en el resto).
+- $\mathbf{A}^T$: Transpuesta de la matriz $\mathbf{A}$ (intercambia filas y columnas).
+- $\mathbf{A}^{-1}$: Inversa de la matriz $\mathbf{A}$ (si existe).
+- $\det(\mathbf{A})$: Determinante de la matriz $\mathbf{A}$.
+- $\text{tr}(\mathbf{A})$: Traza de la matriz $\mathbf{A}$ (suma de los elementos de la diagonal principal).
+- $\text{rank}(\mathbf{A})$: Rango de la matriz $\mathbf{A}$ (dimensión del espacio columna).
+- $\text{nullity}(\mathbf{A})$: Nulidad de la matriz $\mathbf{A}$ (dimensión del núcleo).
+- $\text{span}(\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k)$: Espacio generado por los vectores $\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k$.
+- $\text{dim}(\mathbf{V})$: Dimensión del espacio vectorial $\mathbf{V}$.
+- $\text{ker}(\mathbf{A})$: Núcleo de la matriz $\mathbf{A}$ (espacio de soluciones de $\mathbf{A}\mathbf{x} = \mathbf{0}$).
+- $\text{im}(\mathbf{A})$: Imagen de la matriz $\mathbf{A}$ (espacio generado por las columnas de $\mathbf{A}$).
+- $\mathbf{v} \cdot \mathbf{w}$: Producto escalar entre los vectores $\mathbf{v}$ y $\mathbf{w}$.
+- $\mathbf{v} \times \mathbf{w}$: Producto cruz entre los vectores $\mathbf{v}$ y $\mathbf{w}$ (solo en $\mathbb{R}^3$).
+- $\|\mathbf{v}\|$: Norma del vector $\mathbf{v}$ (longitud del vector).
+- $\angle(\mathbf{u}, \mathbf{v})$: Ángulo entre los vectores $\mathbf{u}$ y $\mathbf{v}$.
+- $\mathbf{u} \oplus \mathbf{v}$: Suma directa de los vectores $\mathbf{u}$ y $\mathbf{v}$.
+- $\mathbf{u} \otimes \mathbf{v}$: Producto tensorial entre los vectores $\mathbf{u}$ y $\mathbf{v}$.
+- $\mathbf{A} \cdot \mathbf{B}$: Producto de matrices $\mathbf{A}$ y $\mathbf{B}$.
+- $\mathbf{A} \circ \mathbf{B}$: Producto Hadamard (producto elemento a elemento) entre las matrices $\mathbf{A}$ y $\mathbf{B}$.
+- $\mathbf{A} \oplus \mathbf{B}$: Suma de matrices $\mathbf{A}$ y $\mathbf{B}$.
+- $\mathbf{A} \otimes \mathbf{B}$: Producto tensorial entre las matrices $\mathbf{A}$ y $\mathbf{B}$.
+- $\mathbf{A} \sim \mathbf{B}$: Matrices $\mathbf{A}$ y $\mathbf{B}$ son equivalentes (tienen el mismo rango).

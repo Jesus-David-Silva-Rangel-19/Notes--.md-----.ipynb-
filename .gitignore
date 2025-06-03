@@ -1,0 +1,12 @@
+# Ignorar la configuración de VS Code
+.crossnote/
+
+# Ignorar directorios con notas incompletas
+Data Science/
+Estadística y Matemáticas/
+Inglés/
+Markdown/
+Otro/
+SQL/
+Routine.md/
+styles.css/
