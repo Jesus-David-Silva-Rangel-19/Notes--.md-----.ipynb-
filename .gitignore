@@ -3,14 +3,14 @@
 
 # Ignorar directorios con notas incompletas
 Data Science/
-/workspaces/codespaces-blank/Estadísticas y Matemáticas/Math/
+Estadísticas y Matemáticas/Math/
 Inglés/
-/workspaces/codespaces-blank/Markdown/
+Markdown/
 Otro/
 SQL/
 Routine.md/
 styles.css/
-/workspaces/codespaces-blank/Routine.md/
+Routine.md/
 
 # Ignorar archivos de configuración del directorio Python
 /workspaces/codespaces-blank/Python/.devcontainer/
