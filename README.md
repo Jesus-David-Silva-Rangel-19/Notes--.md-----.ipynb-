@@ -64,11 +64,10 @@ Este proyecto está bajo la licencia MIT.
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [mi perfil de GitHub](https://github.com/Jesus-David-Silva-Rangel-19).
 
-## Agradecimientos
+## 🎉 Agradecimientos
 
 Gracias por visitar este proyecto. ¡Espero que te sea útil y te ayude a aprender más sobre programación, Data Science y Machine Learning!
 
 ``` python
-print("Gracias por visitar este proyecto. ¡Espero que te sea útil y te ayude a aprender más sobre programación, Data Science y Machine Learning!")
-print("¡Disfruta aprendiendo y programando!")
+print("Gracias! ¡Espero que te sea útil!")
 ```
