@@ -8,7 +8,6 @@ mecanismos fundamentales que permiten la **interacción entre el usuario
 y el programa**. Permiten **recibir datos desde el exterior** (input) y
 **mostrar resultados o información** (output).
 
-
 ## 🎯 **¿Qué funciones desempeñan?**
 
 - **Input**: Permite al usuario **proporcionar datos al programa**
@@ -105,5 +104,3 @@ print("Suma:", a + b)
   Docs](https://docs.python.org/3/library/functions.html#input)
 - [Función `print()` – Python
   Docs](https://docs.python.org/3/library/functions.html#print)
-
-------------------------------------------------------------------------
