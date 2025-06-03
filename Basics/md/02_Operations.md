@@ -1,6 +1,6 @@
-# Python: Operaciones básicas
+# 1. Python: Operaciones básicas
 
-## **Tabla de operadores**
+## 1.1. **Tabla de operadores**
 
 La siguiente tabla muestra los operadores básicos en Python, su significado, su uso en programación y el resultado esperado.
 
@@ -36,7 +36,7 @@ print('potencia', potencia)
 print('División entera:', división_entera)
 print('Módulo:', módulo)
 ```
-# **¿Cuáles son y qué son las operaciones básicas?**
+# 2. **¿Cuáles son y qué son las operaciones básicas?**
 
 - **Suma:** Se representa con el símbolo ($+$) y permite agregar dos o más números.
 
@@ -54,28 +54,38 @@ print('Módulo:', módulo)
 - **Módulo:** Devuelve el residuo de una división. Se representa con ($\bmod$) o `%` en Python.
 
 
-## **¿Qué es la suma?**
+## 2.1. **¿Qué es la suma?**
 
 La suma es una operación matemática que consiste en agregar dos o más números para obtener un total. Se representa con el símbolo (+). 
 
 Por ejemplo, si tenemos (2) y (3), la suma sería:
 
-$$2 + 3 = 5$$
+```math
+2 + 3 = 5
+```
 
-$$4 + 5 = 9$$
+```math
+4 + 5 = 9
+```
 
-
-## **¿Qué es la resta?**
+## 2.2. **¿Qué es la resta?**
 
 La resta es una operación matemática que consiste en quitar un número de otro. Se representa con el símbolo ($-$).
 
+```math
+5 - 2 = 3
+```
+
+```math
+4 - 5 = -1
+```
 Por ejemplo, si tenemos (5) y le restamos (2), la operación sería:
 
 $$5 - 2 = 3$$
 
 $$4 - 5 = -1$$
 
-## **¿Qué es la multiplicación?**
+## 2.3. **¿Qué es la multiplicación?**
 
 La multiplicación consiste en sumar un número varias veces. Se representa con ($\cdot$) o ($\times$); en programación se utiliza `*`.
 
@@ -86,7 +96,7 @@ $$2 \cdot 3 = 6$$
 $$4 \times 5 = 20$$
 
 
-## **¿Qué es la división?**
+## 2.4. **¿Qué es la división?**
 
 La división es una operación que consiste en repartir un número en partes iguales. Se representa con $\div$ o como fracción.
 
@@ -97,7 +107,7 @@ $$6 \div 2 = 3$$
 $$\frac{4}{5} = 0.8$$
 
 
-## **¿Qué es la potencia?**
+## 2.5. **¿Qué es la potencia?**
 
 La potencia es una operación que consiste en multiplicar un número por sí mismo varias veces. Se representa como ($a^b$); en Python se escribe
 `a ** b`.
@@ -109,7 +119,7 @@ $$2^3 = 8$$
 $$4^2 = 16$$
 
 
-## **¿Qué es la división entera?**
+## 2.6. **¿Qué es la división entera?**
 
 La división entera consiste en obtener solo la parte entera del cociente
 al dividir dos números. En Python, se representa con `//`.\
@@ -120,7 +130,7 @@ $$7 \div 3 = 2.33 \quad \Rightarrow \quad 7 \mathbin{//} 3 = 2$$
 $$4 \mathbin{//} 3 = 1$$
 
 
-## **¿Qué es el módulo?**
+## 2.7. **¿Qué es el módulo?**
 
 El módulo o residuo es el resultado restante de una división. En
 matemáticas se representa con $\bmod$; en Python con `%`.\
@@ -131,11 +141,11 @@ $$7 \bmod 3 = 1$$
 $$4 \bmod 3 = 1$$
 
 
-# **Operaciones básicas en Python**
+# 3. **Operaciones básicas en Python**
 
 A continuación, se muestran las operaciones matemáticas básicas utilizando el lenguaje de programación Python.
 
-## **Suma**
+## 3.1. **Suma**
 
 ``` python
 # Suma de dos números
@@ -145,7 +155,7 @@ resultado = a + b
 print(resultado)  # Salida: 5
 ```
 
-## **Resta**
+## 3.2. **Resta**
 
 ``` python
 # Resta de dos números
@@ -156,7 +166,7 @@ print(resultado)  # Salida: 3
 ```
 
 
-## **Multiplicación**
+## 3.3. **Multiplicación**
 
 ``` python
 # Multiplicación de dos números
@@ -167,7 +177,7 @@ print(resultado)  # Salida: 20
 ```
 
 
-## **División**
+## 3.4. **División**
 
 ``` python
 # División de dos números
@@ -178,7 +188,7 @@ print(resultado)  # Salida: 3.0
 ```
 
 
-# **División entera**
+# 4. **División entera**
 
 ``` python
 # División entera de dos números
@@ -189,7 +199,7 @@ print(resultado)  # Salida: 3
 ```
 
 
-# **Módulo**
+# 5. **Módulo**
 
 ``` python
 # Módulo de dos números
@@ -200,7 +210,7 @@ print(resultado)  # Salida: 1
 ```
 
 
-# **Potencia**
+# 6. **Potencia**
 
 ``` python
 # Potencia de un número
@@ -210,7 +220,7 @@ resultado = a ** b
 print(resultado)  # Salida: 8
 ```
 
-# **Operaciones de comparación**
+# 7. **Operaciones de comparación**
 
 ``` python
 mayor_que = a > b # se usa (>)
@@ -232,7 +242,7 @@ print('Menor o igual que:', menor_igual_que)
 print('----------------------------------')
 ```
 
-# **¿Qué son las operaciones de comparación?**
+# 8. **¿Qué son las operaciones de comparación?**
 
 Las operaciones de comparación permiten evaluar relaciones lógicas entre
 dos valores. Estas expresiones siempre devuelven un valor booleano:
@@ -240,9 +250,9 @@ dos valores. Estas expresiones siempre devuelven un valor booleano:
 programación, especialmente en estructuras como `if`, `while` y bucles
 de control.
 
-## **Ejemplo general:**
+## 8.1. **Ejemplo general:**
 
-``` python
+```python
 a = 10
 b = 3
 if a > b:
@@ -256,7 +266,7 @@ lo que se ejecuta la primera parte del bloque if.}
 
 
 
-## **Tabla de simbología**
+## 8.2. **Tabla de simbología**
 
 Esta tabla presenta un resumen de la simbología.
 
@@ -269,7 +279,7 @@ Esta tabla presenta un resumen de la simbología.
 | `>=`     | Mayor o igual que   | `a >= b`        | `True` si `a` ≥ `b`                              |
 | `<=`     | Menor o igual que   | `a <= b`        | `True` si `a` ≤ `b`                              |
 
-## **Mayor que (>):**
+## 8.3. **Mayor que (>):**
 
 **Matemáticamente:** Se usa para expresar que un número es mayor que
 otro. `<br>`{=html} **En Python:** Evalúa si el valor de la izquierda es
@@ -281,7 +291,7 @@ b = 5
 print("¿a > b?", a > b)  # True, porque 7 es mayor que 5
 ```
 
-## **Menor que (<):** 
+## 8.4. **Menor que (<):** 
 
 **Matemáticamente:** Se usa para expresar que un número es menor que otro. `<br>` **En Python:** Evalúa si el valor de la izquierda es
 menor que el de la derecha.
@@ -295,7 +305,7 @@ print("¿a < b?", a < b)  # True, porque 2 es menor que 6
 ```
 
 
-## **Igual que (==):**
+## 8.5. **Igual que (==):**
 
 **Matemáticamente:** Se usa para afirmar que dos cantidades son iguales.
 `<br>`{=html} **En Python:** Compara si ambos valores son exactamente
@@ -309,7 +319,7 @@ print("¿a == b?", a == b)  # True, porque ambos son iguales
 ```
 
 
-## **Diferente que (!=):** 
+## 8.6. **Diferente que (!=):** 
 
 **Matemáticamente:** Se usa para indicar que dos cantidades no son
 iguales. `<br>`{=html} **En Python:** Evalúa si los valores son
@@ -321,7 +331,7 @@ b = 10
 print("¿a != b?", a != b)  # True, porque 8 es diferente de 10
 ```
 
-## **Mayor o igual que (>=):
+## 8.7. **Mayor o igual que (>=):
 
 **Matemáticamente:** Indica que un número es mayor o igual a otro.
 
@@ -336,7 +346,7 @@ mayor_igual_que = a >= b # se usa (>=)
 print('Mayor o igual que:', mayor_igual_que)
 ```
 
-## **Menor o igual que (<=):**
+## 8.8. **Menor o igual que (<=):**
 
 **Matemáticamente:** Indica que un número es menor o igual a otro.
 
@@ -351,7 +361,7 @@ print('Menor o igual que:', menor_igual_que)
 ```
 
 
-# Operaciones lógicas
+# 9. Operaciones lógicas
 
 ``` python
 a = True
@@ -367,7 +377,7 @@ print('not b:', not b) # se usa (not)
 print('----------------------------------')
 ```
 
-# **¿Qué son las operaciones lógicas?**
+# 10. **¿Qué son las operaciones lógicas?**
 
 Las operaciones lógicas son operaciones que se realizan sobre valores booleanos (True o False).
 
@@ -386,9 +396,9 @@ Las operaciones lógicas más comunes son:
 - **is not**: devuelve True si ambos operandos no son el mismo objeto.
 
 
-# **Ejemplos de operaciones lógicas con Python**
+# 11. **Ejemplos de operaciones lógicas con Python**
 
-## **Operador lógico AND**
+## 11.1. **Operador lógico AND**
 
 ``` python
 
@@ -403,7 +413,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico OR**
+## 11.2. **Operador lógico OR**
 
 ``` python
 print('----------------------------------')
@@ -417,7 +427,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico NOT**
+## 11.3. **Operador lógico NOT**
 
 ``` python
 
@@ -430,7 +440,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico XOR**
+## 11.4. **Operador lógico XOR**
 
 ``` python
 print('----------------------------------')
@@ -444,7 +454,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico NAND**
+## 11.5. **Operador lógico NAND**
 
 ``` python
 print('----------------------------------')
@@ -458,7 +468,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico NOR**
+## 11.6. **Operador lógico NOR**
 
 ``` python
 print('----------------------------------')
@@ -472,7 +482,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico XNOR**
+## 11.7. **Operador lógico XNOR**
 
 ``` python
 print('----------------------------------')
@@ -486,7 +496,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico IMPLIES**
+## 11.8. **Operador lógico IMPLIES**
 
 ``` python
 
@@ -501,7 +511,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico BICONDITIONAL**
+## 11.9. **Operador lógico BICONDITIONAL**
 
 ``` python
 
@@ -516,7 +526,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico NOT IMPLIES**
+## 11.10. **Operador lógico NOT IMPLIES**
 
 ``` python
 print('----------------------------------')
@@ -530,7 +540,7 @@ print('----------------------------------')
 ```
 
 
-## **Operador lógico NOT BICONDITIONAL**
+## 11.11. **Operador lógico NOT BICONDITIONAL**
 
 ``` python
 print('----------------------------------')
@@ -546,7 +556,7 @@ print('----------------------------------')
 :::
 
 ::: {#3af6ff55 .cell .markdown}
-# **Operaciones de asignación**
+# 12. **Operaciones de asignación**
 :::
 
 ::: {#728624c6 .cell .code}
@@ -575,7 +585,7 @@ print('a %= b:', a)
 print('----------------------------------')
 ```
 
-### Operaciones de Asignación en Python
+### 12.1.1. Operaciones de Asignación en Python
 
 En Python, las **operaciones de asignación** permiten realizar una
 operación aritmética sobre una variable y asignar el resultado de esa
@@ -583,7 +593,7 @@ operación a la misma variable de manera concisa. Estas operaciones son
 útiles para modificar valores de forma eficiente, evitando la necesidad
 de escribir la variable en ambas partes de la operación.
 
-#### Tipos de Operaciones de Asignación
+#### 12.1.1.1. Tipos de Operaciones de Asignación
 
 Existen varias operaciones de asignación, que combinan una operación
 aritmética con la asignación del valor resultante:
@@ -677,7 +687,7 @@ aritmética con la asignación del valor resultante:
       print(a)  # Salida: 1
       ```
 
-### Ejemplo completo
+### 12.1.2. Ejemplo completo
 
 El siguiente código muestra el uso de las operaciones de asignación
 mencionadas:
@@ -717,65 +727,65 @@ otras.
 ## **Ejemplos con Python**
 
 ``` python
-# Asignación de un valor a una variable
+# 13. Asignación de un valor a una variable
 x = 5
 y = 10
 
-# Asignación de una expresión a una variable
+# 14. Asignación de una expresión a una variable
 z = x + y
 
-# Asignación de una cadena a una variable
+# 15. Asignación de una cadena a una variable
 nombre = "Juan"
 
-# Asignación de una lista a una variable
+# 16. Asignación de una lista a una variable
 numeros = [1, 2, 3, 4, 5]
 
-# Asignación de un diccionario a una variable
+# 17. Asignación de un diccionario a una variable
 persona = {"nombre": "Juan", "edad": 30}
 
-# Asignación de un valor booleano a una variable
+# 18. Asignación de un valor booleano a una variable
 es_mayor_de_edad = True
 
-# Asignación de una tupla a una variable
+# 19. Asignación de una tupla a una variable
 coordenadas = (10, 20)
 
-# Asignación de un conjunto a una variable
+# 20. Asignación de un conjunto a una variable
 conjunto = {1, 2, 3, 4, 5}
 
-# Asignación de un valor nulo a una variable
+# 21. Asignación de un valor nulo a una variable
 nulo = None
 
-# Asignación de una variable a otra
+# 22. Asignación de una variable a otra
 copia = x
 
-# Asignación de una variable a sí misma
+# 23. Asignación de una variable a sí misma
 x += 1
 
-# Asignación de una variable a una expresión
+# 24. Asignación de una variable a una expresión
 x = x * 2
 
-# Asignación de una variable a una función
+# 25. Asignación de una variable a una función
 def suma(a, b):
     return a + b
 resultado = suma(x, y)
 
-# Asignación de una variable a una función lambda
+# 26. Asignación de una variable a una función lambda
 suma_lambda = lambda a, b: a + b
 resultado_lambda = suma_lambda(x, y)
 
-# Asignación de una variable a una lista por comprensión
+# 27. Asignación de una variable a una lista por comprensión
 cuadrados = [i**2 for i in range(10)]
 
-# Asignación de una variable a un diccionario por comprensión
+# 28. Asignación de una variable a un diccionario por comprensión
 cuadrados_dict = {i: i**2 for i in range(10)}
 
-# Asignación de una variable a un conjunto por comprensión
+# 29. Asignación de una variable a un conjunto por comprensión
 cuadrados_set = {i**2 for i in range(10)}
 
-# Asignación de una variable a una cadena por comprensión
+# 30. Asignación de una variable a una cadena por comprensión
 cadena = ''.join(str(i) for i in range(10))
 
-# Asignación de una variable a un generador
+# 31. Asignación de una variable a un generador
 generador = (i**2 for i in range(10))
 ```
 :::

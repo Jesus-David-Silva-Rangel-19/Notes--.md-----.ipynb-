@@ -1,10 +1,10 @@
-# Python: Manejos de arhivos
+# 1. Python: Manejos de arhivos
 
-# Manejo de Archivos en Python
+# 2. Manejo de Archivos en Python
 
 El manejo de archivos en Python es una tarea común que permite leer, escribir y manipular datos almacenados en archivos. Python proporciona una interfaz sencilla para trabajar con archivos, lo que facilita la lectura y escritura de datos en diferentes formatos.
 
-## Abrir un archivo
+## 2.1. Abrir un archivo
 
 Para trabajar con archivos, primero debes abrirlos utilizando la función `open()`. Esta función toma dos argumentos: el nombre del archivo y el modo de apertura. Los modos más comunes son:
 
@@ -29,7 +29,7 @@ archivo_escritura = open('mi_archivo.txt', 'w')
 archivo_anexado = open('mi_archivo.txt', 'a')
 ```
 
-## Lectura de archivo CSV
+## 2.2. Lectura de archivo CSV
 
 Para trabajar con archivos CSV (Comma-Separated Values), puedes utilizar el módulo `csv` de Python, que proporciona funciones para leer y escribir archivos CSV de manera sencilla.
 
@@ -57,7 +57,7 @@ with open('datos.csv', 'r') as archivo_csv:
 ['Bob', '25']
 ```
 
-## Escritura de archivos CSV
+## 2.3. Escritura de archivos CSV
 
 Para escribir datos en un archivo CSV, puedes utilizar el módulo `csv` y su clase `writer`. Puedes escribir filas de datos utilizando el método `writerow()`.
 
@@ -72,11 +72,11 @@ with open('datos.csv', 'w', newline='') as archivo_csv:
     escritor.writerow(['Bob', 25])
 ```
 
-# Pandas
+# 3. Pandas
 
 Pandas es una biblioteca de Python que proporciona estructuras de datos y herramientas para el análisis de datos. Es especialmente útil para trabajar con datos tabulares, como archivos CSV, Excel y bases de datos SQL.
 
-## Lectura de archivos CSV con Pandas
+## 3.1. Lectura de archivos CSV con Pandas
 ```python
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(df)
 1    Bob    25
 ```
 
-## Lectura de diferentes formatos de archivo con Pandas
+## 3.2. Lectura de diferentes formatos de archivo con Pandas
 
 Pandas puede leer y escribir en varios formatos de archivo, incluyendo CSV, Excel, JSON y más. Aquí hay algunos ejemplos:
 
@@ -110,7 +110,7 @@ df_txt = pd.read_csv('datos.txt', delimiter='\t')  # Usando tabulaciones como de
 df_sql = pd.read_sql('SELECT * FROM tabla', conexion_a_base_de_datos)
 ```
 
-## Escribir un DataFrame en un archivo CSV
+## 3.3. Escribir un DataFrame en un archivo CSV
 
 ```python
 # Escribir un DataFrame en un archivo CSV
@@ -121,7 +121,7 @@ df.to_csv('datos_nuevos.csv', index=False)
 
 > **Salida:** `{'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'} <class 'dict'>`
 
-# Cerrar un archivo
+# 4. Cerrar un archivo
 Es importante cerrar un archivo después de haber terminado de trabajar con él para liberar recursos del sistema. Puedes hacerlo utilizando el método `close()` o, preferiblemente, utilizando la declaración `with`, que cierra automáticamente el archivo al salir del bloque.
 
 ```python
@@ -140,7 +140,7 @@ with open('mi_archivo.txt', 'r') as archivo:
 >**Nota:** Es recomendable utilizar la declaración `with` para manejar archivos, ya que asegura que el archivo se cierre correctamente, incluso si ocurre un error durante la lectura o escritura.
 
 
-## Manejo de excepciones al trabajar con archivos
+## 4.1. Manejo de excepciones al trabajar con archivos
 
 Es importante manejar excepciones al trabajar con archivos para evitar errores inesperados. Puedes utilizar bloques `try` y `except` para capturar errores al abrir, leer o escribir archivos.
 
@@ -158,7 +158,7 @@ except IOError:
 
 > **Salida:** Si el archivo no existe, se mostrará el mensaje "El archivo no existe." Si hay un error de entrada/salida, se mostrará "Error al leer el archivo."
 
-# Trabajar con rutas de acceso y directorios
+# 5. Trabajar con rutas de acceso y directorios
 
 Para trabajar con rutas de acceso y directorios, puedes utilizar el módulo `os` de Python. Este módulo proporciona funciones para manipular rutas de archivos y directorios de manera independiente del sistema operativo.
 
@@ -190,7 +190,7 @@ os.rmdir('directorio_a_eliminar')
 
 > **Descripción:** Este ejemplo muestra cómo utilizar el módulo `os` para trabajar con rutas de acceso y directorios, incluyendo la obtención del directorio actual, el cambio de directorio, la lista de archivos, la creación y eliminación de directorios y archivos.
 
-# Trabajar con archivos y directorios en Pandas
+# 6. Trabajar con archivos y directorios en Pandas
 
 Pandas también proporciona funciones para trabajar con archivos y directorios. Puedes utilizar `pandas.read_csv()` para leer archivos CSV y `DataFrame.to_csv()` para escribir DataFrames en archivos CSV.
 
@@ -237,6 +237,6 @@ print(df_sql)
 
 > **Salida:** La salida mostrará el contenido de los DataFrames leídos desde los archivos y confirmará la escritura exitosa de los nuevos archivos.
 
-# Resumen
+# 7. Resumen
 
 El manejo de archivos en Python es una habilidad esencial para trabajar con datos. Puedes abrir, leer, escribir y manipular archivos de manera sencilla utilizando las funciones integradas de Python y bibliotecas como `csv` y `pandas`. Además, es importante manejar excepciones y utilizar el módulo `os` para trabajar con rutas de acceso y directorios. Con estas herramientas, puedes realizar tareas de procesamiento de datos de manera eficiente y efectiva.
