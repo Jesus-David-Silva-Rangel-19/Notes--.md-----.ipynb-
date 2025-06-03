@@ -1,0 +1,19 @@
+# Ignorar la configuración de VS Code
+.crossnote/
+
+# Ignorar directorios con notas incompletas
+Data Science/
+Estadísticas y Matemáticas/Math/
+Inglés/
+Markdown/
+Otro/
+SQL/
+Routine.md/
+styles.css/
+Routine.md/
+/workspaces/codespaces-blank/styles.css/
+
+# Ignorar archivos de configuración del directorio Python
+/workspaces/codespaces-blank/Python/.devcontainer/
+/workspaces/codespaces-blank/Python/.vscode/
+Python/Assets/Computer Science/
