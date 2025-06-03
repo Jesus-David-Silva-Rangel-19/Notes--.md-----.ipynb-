@@ -11,6 +11,7 @@ SQL/
 Routine.md/
 styles.css/
 Routine.md/
+/workspaces/codespaces-blank/styles.css/
 
 # Ignorar archivos de configuración del directorio Python
 /workspaces/codespaces-blank/Python/.devcontainer/
