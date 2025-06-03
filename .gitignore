@@ -10,3 +10,8 @@ Otro/
 SQL/
 Routine.md/
 styles.css/
+
+# Ignorar archivos de configuración del directorio Python
+/workspaces/codespaces-blank/Python/.devcontainer/
+/workspaces/codespaces-blank/Python/.vscode/
+Python/Assets/Computer Science/
