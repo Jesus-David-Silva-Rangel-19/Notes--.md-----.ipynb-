@@ -1,0 +1,5 @@
+# Ignorar archivos de configuración de VS Code
+.vscode/
+
+# Ignorar archivos de configuración de DevContainer
+.devcontainer/
