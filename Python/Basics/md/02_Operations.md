@@ -630,3 +630,99 @@ Resultado de a **= b: 1000
 | `//=`    | División entera y asignación | `a = a // b`    | `a //= b` | División entera            |
 | `%=`     | Módulo y asignación          | `a = a % b`     | `a %= b`  | Residuo de la división     |
 | `**=`    | Potencia y asignación        | `a = a ** b`    | `a **= b` | Potencia y actualiza `a`   |
+
+
+
+## Resumen de operadores en Python
+
+En Python, existen varios tipos de operadores que permiten realizar diferentes tipos de operaciones. A continuación se presenta un resumen de los principales operadores utilizados en Python, organizados por categorías.
+
+### 🔹 1. **Operadores Aritméticos**
+
+Permiten realizar operaciones matemáticas básicas.
+
+| Operador | Descripción     | Ejemplo  | Resultado         |
+| -------- | --------------- | -------- | ----------------- |
+| `+`      | Suma            | `a + b`  | Suma de `a` y `b` |
+| `-`      | Resta           | `a - b`  | Diferencia        |
+| `*`      | Multiplicación  | `a * b`  | Producto          |
+| `/`      | División        | `a / b`  | Cociente (float)  |
+| `//`     | División entera | `a // b` | Cociente (entero) |
+| `%`      | Módulo          | `a % b`  | Residuo           |
+| `**`     | Potencia        | `a ** b` | `a` elevado a `b` |
+
+
+### 🔸 2. **Operadores de Asignación**
+
+Asignan valores a variables, con o sin operación previa.
+
+| Operador | Significado        | Equivalencia |
+| -------- | ------------------ | ------------ |
+| `=`      | Asignación simple  | `a = b`      |
+| `+=`     | Suma y asignación  | `a = a + b`  |
+| `-=`     | Resta y asignación | `a = a - b`  |
+| `*=`     | Multiplicación     | `a = a * b`  |
+| `/=`     | División           | `a = a / b`  |
+| `//=`    | División entera    | `a = a // b` |
+| `%=`     | Módulo             | `a = a % b`  |
+| `**=`    | Potencia           | `a = a ** b` |
+
+
+### 🔹 3. **Operadores de Comparación**
+
+Comparan dos valores y devuelven un valor booleano.
+
+| Operador | Significado       | Ejemplo  |
+| -------- | ----------------- | -------- |
+| `==`     | Igual a           | `a == b` |
+| `!=`     | Diferente de      | `a != b` |
+| `>`      | Mayor que         | `a > b`  |
+| `<`      | Menor que         | `a < b`  |
+| `>=`     | Mayor o igual que | `a >= b` |
+| `<=`     | Menor o igual que | `a <= b` |
+
+
+### 🔸 4. **Operadores Lógicos**
+
+Operan sobre valores booleanos (`True` o `False`).
+
+| Operador | Descripción       | Ejemplo            |
+| -------- | ----------------- | ------------------ |
+| `and`    | Conjunción lógica | `a > 5 and b < 10` |
+| `or`     | Disyunción lógica | `a > 5 or b < 10`  |
+| `not`    | Negación lógica   | `not a > 5`        |
+
+
+### 🔹 5. **Operadores Bit a Bit (Bitwise)**
+
+Operan directamente sobre representaciones binarias de los números.
+
+| Operador | Descripción                   | Ejemplo      | Resultado                              |     |                 |
+| -------- | ----------------------------- | ------------ | -------------------------------------- | --- | --------------- |
+| `&`      | AND bit a bit                 | `a & b`      | Bits comunes                           |     |                 |
+| \`       | \`                            | OR bit a bit | \`a                                    | b\` | Bits combinados |
+| `^`      | XOR bit a bit                 | `a ^ b`      | Bits diferentes                        |     |                 |
+| `~`      | NOT bit a bit (inverso)       | `~a`         | Complemento                            |     |                 |
+| `<<`     | Desplazamiento a la izquierda | `a << 2`     | Desplaza bits 2 lugares a la izquierda |     |                 |
+| `>>`     | Desplazamiento a la derecha   | `a >> 2`     | Desplaza bits 2 lugares a la derecha   |     |                 |
+
+
+### 🔸 6. **Operadores de Membresía**
+
+Verifican si un valor está presente en una secuencia (como listas, tuplas, cadenas, etc.).
+
+| Operador | Descripción                         | Ejemplo             |
+| -------- | ----------------------------------- | ------------------- |
+| `in`     | Devuelve `True` si está presente    | `'a' in 'data'`     |
+| `not in` | Devuelve `True` si NO está presente | `'x' not in 'data'` |
+
+
+### 🔹 7. **Operadores de Identidad**
+
+Evalúan si dos variables se refieren al mismo objeto en memoria.
+
+| Operador | Descripción                         | Ejemplo      |
+| -------- | ----------------------------------- | ------------ |
+| `is`     | `True` si ambos son el mismo objeto | `a is b`     |
+| `is not` | `True` si no son el mismo objeto    | `a is not b` |
+
