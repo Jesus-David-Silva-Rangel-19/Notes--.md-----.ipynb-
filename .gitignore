@@ -1,10 +1,10 @@
 .crossnote/
 .devcontainer/
 .vscode/
-/workspaces/codespaces-blank/Data Science/
-/workspaces/codespaces-blank/Estadísticas y Matemáticas/
-/workspaces/codespaces-blank/Inglés/
-/workspaces/codespaces-blank/Markdown/
-/workspaces/codespaces-blank/Otro/
-/workspaces/codespaces-blank/SQL/
-/workspaces/codespaces-blank/styles.css
+'Data Science'/
+'Estadísticas y Matemáticas'/
+Inglés/
+Markdown/
+Otro/
+SQL/
+styles.css
