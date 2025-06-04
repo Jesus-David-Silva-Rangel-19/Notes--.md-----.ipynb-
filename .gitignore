@@ -3,8 +3,11 @@
 .vscode/
 Data-Science/
 Estadísticas-y-Matemáticas/
-English/English/
+English/
 Markdown/
 Otro/
 SQL/
 styles.css
+Python/.devcontainer/
+Python/.vscode/
+Python/Assets/Computer Science/
