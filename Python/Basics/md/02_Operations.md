@@ -4,7 +4,7 @@ Este documento cubre las operaciones matemáticas básicas, operaciones aritmét
 
 Las operaciones matemáticas básicas son fundamentales en programación y se utilizan para realizar cálculos simples. En Python, estas operaciones se pueden realizar utilizando operadores aritméticos.
 
-## Operaciones matemáticas básicas
+## Operaciones matemáticas aritméticas
 
 Las operaciones matemáticas básicas incluyen suma, resta, multiplicación, división, potencia, división entera y módulo. 
 
