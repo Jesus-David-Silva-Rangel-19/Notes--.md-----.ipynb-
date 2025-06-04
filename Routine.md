@@ -41,3 +41,4 @@
 * El bloque del sábado permite aplicar lo aprendido a **datasets reales**.
 * Leer documentación oficial y tomar apuntes visuales o esquemáticos.
 * Mantener una bitácora diaria de progreso.
+* Hola, ¡disfruta del proceso de aprendizaje!
