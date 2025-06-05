@@ -4,13 +4,13 @@ Este documento cubre las operaciones matemáticas básicas, operaciones aritmét
 
 Las operaciones matemáticas básicas son fundamentales en programación y se utilizan para realizar cálculos simples. En Python, estas operaciones se pueden realizar utilizando operadores aritméticos.
 
-# 1.1. Operaciones matemáticas aritméticas
+# 2. Operaciones matemáticas aritméticas
 
 Las operaciones matemáticas básicas incluyen suma, resta, multiplicación, división, potencia, división entera y módulo. 
 
 A continuación se presentan ejemplos de cada una de estas operaciones en Python.
 
-## 1.1.1. Suma
+## 2.1. Suma
 
 La suma es una operación que consiste en agregar dos o más números para obtener un total. En Python, se utiliza el operador `+`.
 
@@ -34,7 +34,7 @@ print("Suma:", suma)
 Suma: 8
 ```
 
-## 1.1.2. Resta
+## 2.2. Resta
 
 La resta es una operación que consiste en sustraer un número de otro. En Python, se utiliza el operador `-`.
 
@@ -58,7 +58,7 @@ print("Resta:", resta)
 Resta: 2
 ```
 
-## 1.1.3. Multiplicación
+## 2.3. Multiplicación
 
 La multiplicación es una operación que consiste en sumar un número varias veces. En Python, se utiliza el operador `*`.
 
@@ -82,7 +82,7 @@ print("Multiplicación:", multiplicación)
 Multiplicación: 20
 ```
 
-## 1.1.4. División
+## 2.4. División
 
 La división es una operación que consiste en repartir un número en partes iguales. En Python, se utiliza el operador `/`.
 
@@ -106,7 +106,7 @@ print("División:", división)
 División: 3.0
 ```
 
-## 1.1.5. Potencia
+## 2.5. Potencia
 
 La potencia es una operación que consiste en multiplicar un número por sí mismo varias veces. En Python, se utiliza el operador `**`.
 
@@ -130,7 +130,7 @@ print("Potencia:", potencia)
 Potencia: 8
 ```
 
-## 1.1.6. División entera
+## 2.6. División entera
 
 La división entera consiste en obtener solo la parte entera del cociente al dividir dos números. En Python, se utiliza el operador `//`.
 
@@ -154,7 +154,7 @@ print("División entera:", división_entera)
 División entera: 3
 ```
 
-## 1.1.7. Módulo
+## 2.7. Módulo
 
 El módulo es el residuo de una división. En Python, se utiliza el operador `%`.
 
@@ -178,7 +178,7 @@ print("Módulo:", módulo)
 Módulo: 1
 ```
 
-## 1.1.8. Tabla de operadores básicos
+## 2.8. Tabla de operadores básicos
 
 | Operador | Significado matemático | En programación Python | Ejemplo |
 |----------|------------------------|------------------------|---------|
@@ -192,7 +192,7 @@ Módulo: 1
 
 
 
-# 1.2. Operaciones de comparación
+# 3. Operaciones de comparación
 
 Las operaciones de comparación permiten evaluar relaciones lógicas entre dos valores. Estas expresiones siempre devuelven un valor booleano: `True` o `False`. 
 
@@ -201,7 +201,7 @@ Son fundamentales para la toma de decisiones en programación, especialmente en 
 A continuación se presentan las operaciones de comparación más comunes en Python, junto con ejemplos de uso.
 
 
-## 1.2.1. Mayor que (`>`)
+## 3.1. Mayor que (`>`)
 
 La operación de comparación "mayor que" se utiliza para verificar si un valor es mayor que otro. En Python, se representa con el símbolo `>`.
 
@@ -225,7 +225,7 @@ print("¿a > b?:", mayor_que)
 ¿a > b?: True
 ```
 
-## 1.2.2. Menor que (`<`)
+## 3.2. Menor que (`<`)
 
 La operación de comparación "menor que" se utiliza para verificar si un valor es menor que otro. En Python, se representa con el símbolo `<`.
 
@@ -249,7 +249,7 @@ print("¿a < b?:", menor_que)
 ¿a < b?: False
 ```
 
-## 1.2.3. Igual que (`==`)
+## 3.3. Igual que (`==`)
 
 La operación de comparación "igual que" se utiliza para verificar si dos valores son iguales. En Python, se representa con el símbolo `==`.
 
@@ -271,7 +271,7 @@ print("¿a == b?:", igual_que)
 ¿a == b?: True
 ```
 
-## 1.2.4. Diferente que (`!=`)
+## 3.4. Diferente que (`!=`)
 
 La operación de comparación "diferente que" se utiliza para verificar si dos valores son diferentes. En Python, se representa con el símbolo `!=`.
 
@@ -293,7 +293,7 @@ print("¿a != b?:", diferente_que)
 ¿a != b?: True
 ```
 
-## 1.2.5. Mayor o igual que (`>=`)
+## 3.5. Mayor o igual que (`>=`)
 
 La operación de comparación "mayor o igual que" se utiliza para verificar si un valor es mayor o igual a otro. En Python, se representa con el símbolo `>=`.
 
@@ -317,7 +317,7 @@ print('Mayor o igual que:', mayor_igual_que)
 Mayor o igual que: True
 ```
 
-## 1.2.6. Menor o igual que (`<=`)
+## 3.6. Menor o igual que (`<=`)
 
 La operación de comparación "menor o igual que" se utiliza para verificar si un valor es menor o igual a otro. En Python, se representa con el símbolo `<=`.
 
@@ -342,7 +342,7 @@ Menor o igual que: True
 ```
 
 
-## 1.2.7. Tabla de operadores lógicos
+## 3.7. Tabla de operadores lógicos
 
 Esta tabla presenta un resumen de la simbología.
 
@@ -356,11 +356,11 @@ Esta tabla presenta un resumen de la simbología.
 | `<=` | Menor o igual que | `a <= b` | `True` si `a` ≤ `b` |
 
 
-# 1.3. Operaciones lógicas
+# 4. Operaciones lógicas
 
 Las **operaciones lógicas** permiten combinar o evaluar expresiones booleanas. Son fundamentales en estructuras de control como condicionales y bucles. En Python, los operadores lógicos principales son `and`, `or` y `not`.
 
-## 1.3.1. **Y lógico (`and`)**
+## 4.1. **Y lógico (`and`)**
 
 El operador `and` devuelve `True` si **ambas expresiones** son verdaderas. Se usa cuando se desea que **todas las condiciones** se cumplan.
 
@@ -384,7 +384,7 @@ print('Resultado con and:', resultado)
 Resultado con and: True
 ```
 
-## 1.3.2. **O lógico (`or`)**
+## 4.2. **O lógico (`or`)**
 
 El operador `or` devuelve `True` si **al menos una** de las expresiones es verdadera. Se usa cuando **basta con que una condición** se cumpla.
 
@@ -408,7 +408,7 @@ print('Resultado con or:', resultado)
 Resultado con or: True
 ```
 
-## 1.3.3. **Negación lógica (`not`)**
+## 4.3. **Negación lógica (`not`)**
 
 El operador `not` invierte el valor lógico de una expresión. Si la expresión es `True`, `not` devuelve `False`, y viceversa.
 
@@ -431,7 +431,7 @@ print('Resultado con not:', resultado)
 Resultado con not: True
 ```
 
-## 1.3.4. Tabla de operadores lógicos
+## 4.4. Tabla de operadores lógicos
 
 | Operador | Descripción                                      | Ejemplo           | Resultado esperado              |
 | -------- | ------------------------------------------------ | ----------------- | ------------------------------- |
@@ -443,13 +443,13 @@ Claro. A continuación se presenta el contenido reorganizado siguiendo el format
 
 ---
 
-# 1.4. Operadores de Asignación en Python
+# 5. Operadores de Asignación en Python
 
 En Python, los **operadores de asignación** permiten almacenar un valor en una variable. Además, existen operadores compuestos que combinan una operación aritmética con la asignación, lo que permite escribir código más conciso y eficiente.
 
 ---
 
-## 1.4.1. Asignación simple (`=`)
+## 5.1. Asignación simple (`=`)
 
 La asignación simple se utiliza para almacenar un valor en una variable. Se representa con el símbolo `=`.
 
@@ -471,7 +471,7 @@ Valor de x: 5
 
 ---
 
-## 1.4.2. Suma y asignación (`+=`)
+## 5.2. Suma y asignación (`+=`)
 
 La operación `+=` suma el valor de la derecha al valor existente de la variable y actualiza su contenido.
 
@@ -492,7 +492,7 @@ Resultado de a += b: 13
 
 ---
 
-## 1.4.3. Resta y asignación (`-=`)
+## 5.3. Resta y asignación (`-=`)
 
 La operación `-=` resta el valor de la derecha al valor existente de la variable y actualiza su contenido.
 
@@ -513,7 +513,7 @@ Resultado de a -= b: 7
 
 ---
 
-## 1.4.4. Multiplicación y asignación (`*=`)
+## 5.4. Multiplicación y asignación (`*=`)
 
 La operación `*=` multiplica el valor existente de la variable por el valor de la derecha y actualiza la variable.
 
@@ -534,7 +534,7 @@ Resultado de a *= b: 30
 
 ---
 
-## 1.4.5. División y asignación (`/=`)
+## 5.5. División y asignación (`/=`)
 
 La operación `/=` divide el valor existente de la variable por el valor de la derecha y actualiza su contenido. El resultado es de tipo flotante.
 
@@ -555,7 +555,7 @@ Resultado de a /= b: 3.3333333333333335
 
 ---
 
-## 1.4.6. División entera y asignación (`//=`)
+## 5.6. División entera y asignación (`//=`)
 
 La operación `//=` realiza una división entera (sin decimales) y actualiza la variable con el cociente entero.
 
@@ -576,7 +576,7 @@ Resultado de a //= b: 3
 
 ---
 
-## 1.4.7. Módulo y asignación (`%=`)
+## 5.7. Módulo y asignación (`%=`)
 
 La operación `%=` calcula el residuo de la división entre el valor actual de la variable y el valor de la derecha, y actualiza la variable.
 
@@ -597,7 +597,7 @@ Resultado de a %= b: 1
 
 ---
 
-## 1.4.8. Exponente y asignación (`**=`)
+## 5.8. Exponente y asignación (`**=`)
 
 La operación `**=` eleva la variable a la potencia del valor de la derecha y actualiza su contenido.
 
@@ -618,7 +618,7 @@ Resultado de a **= b: 1000
 
 ---
 
-## 1.4.9. Tabla de operadores de asignación
+## 5.9. Tabla de operadores de asignación
 
 | Operador | Operación combinada          | Significado     | Ejemplo   | Resultado esperado         |
 | -------- | ---------------------------- | --------------- | --------- | -------------------------- |
@@ -633,11 +633,11 @@ Resultado de a **= b: 1000
 
 
 
-# 1.5. Resumen de operadores en Python
+# 6. Resumen de operadores en Python
 
 En Python, existen varios tipos de operadores que permiten realizar diferentes tipos de operaciones. A continuación se presenta un resumen de los principales operadores utilizados en Python, organizados por categorías.
 
-## 1.5.1. 🔹 1. **Operadores Aritméticos**
+## 6.1. 🔹 1. **Operadores Aritméticos**
 
 Permiten realizar operaciones matemáticas básicas.
 
@@ -652,7 +652,7 @@ Permiten realizar operaciones matemáticas básicas.
 | `**`     | Potencia        | `a ** b` | `a` elevado a `b` |
 
 
-## 1.5.2. 🔸 2. **Operadores de Asignación**
+## 6.2. 🔸 2. **Operadores de Asignación**
 
 Asignan valores a variables, con o sin operación previa.
 
@@ -668,7 +668,7 @@ Asignan valores a variables, con o sin operación previa.
 | `**=`    | Potencia           | `a = a ** b` |
 
 
-## 1.5.3. 🔹 3. **Operadores de Comparación**
+## 6.3. 🔹 3. **Operadores de Comparación**
 
 Comparan dos valores y devuelven un valor booleano.
 
@@ -682,7 +682,7 @@ Comparan dos valores y devuelven un valor booleano.
 | `<=`     | Menor o igual que | `a <= b` |
 
 
-## 1.5.4. 🔸 4. **Operadores Lógicos**
+## 6.4. 🔸 4. **Operadores Lógicos**
 
 Operan sobre valores booleanos (`True` o `False`).
 
@@ -693,7 +693,7 @@ Operan sobre valores booleanos (`True` o `False`).
 | `not`    | Negación lógica   | `not a > 5`        |
 
 
-## 1.5.5. 🔹 5. **Operadores Bit a Bit (Bitwise)**
+## 6.5. 🔹 5. **Operadores Bit a Bit (Bitwise)**
 
 Operan directamente sobre representaciones binarias de los números.
 
@@ -707,7 +707,7 @@ Operan directamente sobre representaciones binarias de los números.
 | `>>`     | Desplazamiento a la derecha   | `a >> 2`     | Desplaza bits 2 lugares a la derecha   |     |                 |
 
 
-## 1.5.6. 🔸 6. **Operadores de Membresía**
+## 6.6. 🔸 6. **Operadores de Membresía**
 
 Verifican si un valor está presente en una secuencia (como listas, tuplas, cadenas, etc.).
 
@@ -717,7 +717,7 @@ Verifican si un valor está presente en una secuencia (como listas, tuplas, cade
 | `not in` | Devuelve `True` si NO está presente | `'x' not in 'data'` |
 
 
-## 1.5.7. 🔹 7. **Operadores de Identidad**
+## 6.7. 🔹 7. **Operadores de Identidad**
 
 Evalúan si dos variables se refieren al mismo objeto en memoria.
 
