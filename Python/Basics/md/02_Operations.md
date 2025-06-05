@@ -637,7 +637,7 @@ Resultado de a **= b: 1000
 
 En Python, existen varios tipos de operadores que permiten realizar diferentes tipos de operaciones. A continuación se presenta un resumen de los principales operadores utilizados en Python, organizados por categorías.
 
-## 6.1. 🔹 1. **Operadores Aritméticos**
+## 6.1. **Operadores Aritméticos**
 
 Permiten realizar operaciones matemáticas básicas.
 
@@ -652,7 +652,7 @@ Permiten realizar operaciones matemáticas básicas.
 | `**`     | Potencia        | `a ** b` | `a` elevado a `b` |
 
 
-## 6.2. 🔸 2. **Operadores de Asignación**
+## 6.2. **Operadores de Asignación**
 
 Asignan valores a variables, con o sin operación previa.
 
@@ -668,7 +668,7 @@ Asignan valores a variables, con o sin operación previa.
 | `**=`    | Potencia           | `a = a ** b` |
 
 
-## 6.3. 🔹 3. **Operadores de Comparación**
+## 6.3. **Operadores de Comparación**
 
 Comparan dos valores y devuelven un valor booleano.
 
@@ -682,7 +682,7 @@ Comparan dos valores y devuelven un valor booleano.
 | `<=`     | Menor o igual que | `a <= b` |
 
 
-## 6.4. 🔸 4. **Operadores Lógicos**
+## 6.4. **Operadores Lógicos**
 
 Operan sobre valores booleanos (`True` o `False`).
 
@@ -693,7 +693,7 @@ Operan sobre valores booleanos (`True` o `False`).
 | `not`    | Negación lógica   | `not a > 5`        |
 
 
-## 6.5. 🔹 5. **Operadores Bit a Bit (Bitwise)**
+## 6.5. **Operadores Bit a Bit (Bitwise)**
 
 Operan directamente sobre representaciones binarias de los números.
 
@@ -707,7 +707,7 @@ Operan directamente sobre representaciones binarias de los números.
 | `>>`     | Desplazamiento a la derecha   | `a >> 2`     | Desplaza bits 2 lugares a la derecha   |     |                 |
 
 
-## 6.6. 🔸 6. **Operadores de Membresía**
+## 6.6. **Operadores de Membresía**
 
 Verifican si un valor está presente en una secuencia (como listas, tuplas, cadenas, etc.).
 
@@ -717,7 +717,7 @@ Verifican si un valor está presente en una secuencia (como listas, tuplas, cade
 | `not in` | Devuelve `True` si NO está presente | `'x' not in 'data'` |
 
 
-## 6.7. 🔹 7. **Operadores de Identidad**
+## 6.7. **Operadores de Identidad**
 
 Evalúan si dos variables se refieren al mismo objeto en memoria.
 
