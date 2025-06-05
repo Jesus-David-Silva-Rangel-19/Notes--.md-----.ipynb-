@@ -1,4 +1,4 @@
-# Python: Variables
+# 1. Python: Variables
 
 ``` python
 # Texto (str)
@@ -33,81 +33,80 @@ coordenadas = (40.4168, -3.7038)  # (latitud, longitud)
 conjunto = {1, 2, 3, 4, 5}
 ```
 
-# ¿Qué son las variables?
+# 2. ¿Qué son las variables?
 
 Las variables son espacios de almacenamiento en la memoria de la computadora que se utilizan para guardar datos. Las variables tienen un nombre y un valor asociado. El nombre de la variable se utiliza para referirse a ese valor en el código. Las variables pueden contener diferentes tipos de datos, como números, cadenas de texto, listas, diccionarios, etc.
 
-# **¿Qué son los tipos de datos?**
+# 3. **¿Qué son los tipos de datos?**
 
 Los tipos de datos son categorías que definen el tipo de valor que una variable puede almacenar. En Python, hay varios tipos de datos incorporados, como enteros (int), flotantes (float), cadenas (str), listas (list), diccionarios (dict), tuplas (tuple) y conjuntos (set). Cada tipo de dato tiene sus propias características y métodos asociados.
 
-# **Tipos de variables en Python**
+# 4. **Tipos de variables en Python**
 
 Existen varios tipos de variables en Python, cada uno diseñado para almacenar diferentes tipos de datos. A continuación, se describen algunos de los tipos de variables más comunes:
 
-## 1. **Cadena de Texto (str)**: 
+## 4.1. **Cadena de Texto (str)**: 
 
 Se utiliza para almacenar cadenas de texto. Se define entre comillas
 simples o dobles.
 
-### **Ejemplo**:
+### 4.1.1. **Ejemplo**:
 
 ``` python
 texto = "Hola, mundo!"
 ```
 
-## 2. **Número Decimal (float)**:
+## 4.2. **Número Decimal (float)**:
 
 Se utiliza para almacenar números decimales. Se define con un punto
 decimal.
 
-### **Ejemplo**:
+### 4.2.1. **Ejemplo**:
 
 ``` python
 numero_decimal = 3.14
 ```
 
 
-## 3. **Número Entero (int)**:
+## 4.3. **Número Entero (int)**:
 
 Se utiliza para almacenar números enteros. No tiene decimales.
 
-### **Ejemplo**:
+### 4.3.1. **Ejemplo**:
 
 ``` python
 numero_entero = 42
 ```
 
 
-## 4. **Booleano (bool)**:
+## 4.4. **Booleano (bool)**:
 
 Se utiliza para almacenar valores de verdad: `True` o `False`.
 
-### **Ejemplo**:
+### 4.4.1. **Ejemplo**:
 
 ``` python
 es_verdadero = True
 ```
 
 
-## 5. **Lista (list)**:
+## 4.5. **Lista (list)**:
 
 Se utiliza para almacenar una colección de elementos. Se define entre
 corchetes `[]`.
 
-### **Ejemplo**:
+### 4.5.1. **Ejemplo**:
 
 ``` python
 lista = [1, 2, 3, 4, 5]
 ```
 
 
-## 6. **Diccionario (dict)**:
+## 4.6. **Diccionario (dict)**:
 
-Se utiliza para almacenar pares clave-valor. Se define entre llaves
-`{}`.
+Se utiliza para almacenar pares clave-valor. Se define entre llaves `{}`.
 
-### **Ejemplo**:
+### 4.6.1. **Ejemplo**:
 
 ``` python
 diccionario = {
@@ -117,11 +116,11 @@ diccionario = {
 }
 ```
 
-## 7. **Tupla (tuple)**: {#7-tupla-tuple}
+## 4.7. **Tupla (tuple)**: {#7-tupla-tuple}
 
 Se utiliza para almacenar una colección de elementos inmutables. Se define entre paréntesis `()`.
 
-### **Ejemplo**:
+### 4.7.1. **Ejemplo**:
 
 ``` python
 
@@ -129,79 +128,79 @@ tupla = (1, 2, 3)
 ```
 
 
-## 8. **Conjunto (set)**:
+## 4.8. **Conjunto (set)**:
 
 Se utiliza para almacenar una colección de elementos únicos. Se define entre llaves `{}`.
 
-### **Ejemplo**:
+### 4.8.1. **Ejemplo**:
 
 ```python
 conjunto = {1, 2, 3, 4, 5}
 ```
 
-## 9. **Ninguno (None)**:
+## 4.9. **Ninguno (None)**:
 
 Se utiliza para representar la ausencia de valor o un valor nulo. Se define como `None`.
 
-### **Ejemplo**
+### 4.9.1. **Ejemplo**
 
 ```python
 ninguno = None
 ```
 
 
-## 10. **Bytes (bytes)**:
+## 4.10. **Bytes (bytes)**:
 
 Se utiliza para almacenar datos binarios. Se define con un prefijo `b` antes de la cadena.
 
-### **Ejemplo**:
+### 4.10.1. **Ejemplo**:
 
 ```python
 bytes_datos = b"Hola, mundo!"
 ```
 
 
-## 11. **Bytearray (bytearray)**:
+## 4.11. **Bytearray (bytearray)**:
 
 Se utiliza para almacenar datos binarios mutables. Se define con un prefijo `b` antes de la cadena y se convierte a un objeto `bytearray`.
 
-### **Ejemplo**:
+### 4.11.1. **Ejemplo**:
 
 ```python
 bytearray_datos = bytearray(b"Hola, mundo!")
 ```
 
 
-## 12. **Memoryview (memoryview)**: 
+## 4.12. **Memoryview (memoryview)**: 
 
 Se utiliza para acceder a los datos de un objeto de bytes sin copiarlo. Se define con el constructor `memoryview()`.
 
 
-### **Ejemplo**:
+### 4.12.1. **Ejemplo**:
 
 ```python
 memoryview_datos = memoryview(b"Hola, mundo!")
 ```
 
-## 13. **Frozenset (frozenset)**:
+## 4.13. **Frozenset (frozenset)**:
 
 ```python
 frozenset_datos = frozenset([1, 2, 3, 4, 5])
 Se utiliza para almacenar una colección de elementos únicos e inmutables. Se define con el constructor `frozenset()`.
 ```
 
-### **Ejemplo**:
+### 4.13.1. **Ejemplo**:
 
 ```python
 frozenset_datos = frozenset([1, 2, 3, 4, 5])
 ```
 
 
-## 14. **Complejo (complex)**:
+## 4.14. **Complejo (complex)**:
 
 Se utiliza para almacenar números complejos. Se define con la forma `a + bj`, donde `a` es la parte real y `b` es la parte imaginaria.
 
-### **Ejemplo**:
+### 4.14.1. **Ejemplo**:
 
 ```python
 numero_complejo = 3 + 4j
