@@ -1,6 +1,6 @@
-# Python: Variables y Tipos de Datos
+# 1. Python: Variables y Tipos de Datos
 
-# Variables
+# 2. Variables
 
 Las variables son contenedores que almacenan datos. En Python, no es necesario declarar el tipo de dato de una variable antes de asignarle un valor.
 
@@ -15,11 +15,11 @@ es_estudiante = True # Booleano (bool)
 
 > **Dato:** Las variables son útiles para almacenar información que se puede utilizar y modificar a lo largo del programa.
 
-# **Tipos de datos**
+# 3. **Tipos de datos**
 
 En Python, existen varios tipos de datos que se utilizan para almacenar diferentes tipos de información. A continuación, se presentan los tipos de datos más comunes junto con ejemplos:
 
-## Números enteros (`int`)
+## 3.1. Números enteros (`int`)
 
 Los números enteros son valores numéricos sin decimales. Pueden ser positivos o negativos.
 
@@ -33,7 +33,7 @@ print("Entero:", a, type(a))
 ```
 > **Dato:** Los números enteros son útiles para contar, realizar cálculos matemáticos y representar cantidades discretas.
 
-## Números decimales (`float`)
+## 3.2. Números decimales (`float`)
 Los números decimales son valores numéricos que pueden tener una parte fraccionaria. Se utilizan para representar cantidades con precisión.
 
 **Ejemplo:**
@@ -45,7 +45,7 @@ print("Decimal:", b, type(b))
 
 >**Dato:** Los números decimales son útiles para cálculos que requieren precisión, como mediciones y finanzas.
 
-## Cadenas de texto (`str`)
+## 3.3. Cadenas de texto (`str`)
 
 Las cadenas de texto son secuencias de caracteres que se utilizan para representar texto. Se definen entre comillas simples o dobles.
 
@@ -58,7 +58,7 @@ print("Cadena:", c, type(c))
 
 > **Dato:** Las cadenas de texto son útiles para almacenar y manipular información textual, como nombres, descripciones y mensajes.
 
-## Booleanos (`bool`)
+## 3.4. Booleanos (`bool`)
 
 Los booleanos son un tipo de dato que puede tener solo dos valores: `True` (verdadero) o `False` (falso). Se utilizan para representar condiciones lógicas.
 
@@ -70,7 +70,7 @@ print("Booleano:", d, type(d))
 ```
 > **Dato:** Los booleanos son útiles para tomar decisiones en el código, como en estructuras de control (`if`, `while`, etc.).
 
-## Listas (`list`)
+## 3.5. Listas (`list`)
 
 Las listas son colecciones ordenadas de elementos que pueden contener diferentes tipos de datos. Se definen entre corchetes `[]`.
 
@@ -81,7 +81,7 @@ print("Lista:", e, type(e))
 ```
 > **Dato:** Las listas son útiles para almacenar múltiples elementos relacionados, como una colección de nombres, números o cualquier otro tipo de dato.
 
-## Diccionarios (`dict`)
+## 3.6. Diccionarios (`dict`)
 
 Los diccionarios son colecciones no ordenadas de pares clave-valor. Se definen entre llaves `{}` y se utilizan para almacenar información de manera estructurada.
 
@@ -94,7 +94,7 @@ print("Diccionario:", f, type(f))
 
 > **Dato:** Los diccionarios son útiles para almacenar datos relacionados, como información de una persona, donde cada clave representa un atributo y su valor asociado.
 
-## Tuplas (`tuple`)
+## 3.7. Tuplas (`tuple`)
 
 Las tuplas son colecciones ordenadas e inmutables de elementos. Se definen entre paréntesis `()` y se utilizan para almacenar datos que no deben cambiar.
 
@@ -106,7 +106,7 @@ print("Tupla:", g, type(g))
 
 > **Dato:** Las tuplas son útiles para almacenar datos que no deben modificarse, como coordenadas geográficas o fechas.
 
-## Conjuntos (`set`)
+## 3.8. Conjuntos (`set`)
 
 Los conjuntos son colecciones no ordenadas de elementos únicos. Se definen entre llaves `{}` y se utilizan para realizar operaciones matemáticas como la unión, intersección y diferencia.
 
@@ -117,7 +117,7 @@ print("Conjunto:", h, type(h))
 ```
 > **Dato:** Los conjuntos son útiles para almacenar elementos únicos y realizar operaciones matemáticas, como eliminar duplicados de una lista.
 
-# Tabla de tipos de datos en Python
+# 4. Tabla de tipos de datos en Python
 
 | Tipo de dato | Nombre      | Ejemplo              |
 |--------------|-------------|----------------------|
@@ -130,7 +130,7 @@ print("Conjunto:", h, type(h))
 | `tuple`      | Tupla       | `(1, 2, 3)`          |
 | `set`        | Conjunto    | `{1, 2, 3}`          |
 
-## **Ejemplos completos de tipos de datos en Python**
+## 4.1. **Ejemplos completos de tipos de datos en Python**
 
 ``` python
 # Números enteros (int)
@@ -166,9 +166,9 @@ h = {1, 2, 3, 4, 5}
 print("Conjunto:", h, type(h))
 ```
 
-# Resumen de tipos de datos en Python
+# 5. Resumen de tipos de datos en Python
 
-## **¿Que representa cada tipo de dato?**
+## 5.1. **¿Que representa cada tipo de dato?**
 
 - `int`: Son números enteros, como *1, 2, 3*.
 
@@ -187,9 +187,9 @@ print("Conjunto:", h, type(h))
 - `set`: Son conjuntos, que almacenan elementos únicos, como *{1, 2, 3}*.
 
 
-# Ejemplos de uso de tipos de datos
+# 6. Ejemplos de uso de tipos de datos
 
-## Enteros (`int`)
+## 6.1. Enteros (`int`)
 
 ```python
 numero_entero = 42
@@ -199,7 +199,7 @@ print("Número entero:", numero_entero, type(numero_entero))
 > **Descripción:** Este ejemplo muestra cómo declarar una variable de tipo entero y su tipo.
 > **Salida:** `42 <class 'int'>`
 
-## Decimales (`float`)
+## 6.2. Decimales (`float`)
 
 ```python
 numero_decimal = 3.14
@@ -208,7 +208,7 @@ print("Número decimal:", numero_decimal, type(numero_decimal))
 > **Descripción:** Este ejemplo muestra cómo declarar una variable de tipo decimal y su tipo.
 > **Salida:** `3.14 <class 'float'>`
 
-## Cadenas de texto (`str`)
+## 6.3. Cadenas de texto (`str`)
 
 ```python
 texto = "Hola, Python"
@@ -217,7 +217,7 @@ print("Texto:", texto, type(texto))
 > **Descripción:** Este ejemplo muestra cómo declarar una variable de tipo cadena de texto y su tipo.
 > **Salida:** `Hola, Python <class 'str'>`
 
-## Booleanos (`bool`)
+## 6.4. Booleanos (`bool`)
 
 ```python
 es_mayor_de_edad = True
@@ -231,7 +231,7 @@ else:
 > **Salida:** `Eres mayor de edad.`
 > **Nota:** Puedes cambiar el valor de `es_mayor_de_edad` a `False` para ver el otro resultado.
 
-## Listas (`list`)
+## 6.5. Listas (`list`)
 
 ```python
 mi_lista = [1, 2, 3, "Hola", True]
@@ -243,7 +243,7 @@ print("Lista:", mi_lista, type(mi_lista))
 
 > **Nota:** Las listas son mutables, lo que significa que puedes modificar su contenido después de haberlas creado.
 
-## **¿Qué son los diccionarios?**
+## 6.6. **¿Qué son los diccionarios?**
 
 ``` python
 diccionario = {
@@ -257,7 +257,7 @@ print("Diccionario:", diccionario, type(diccionario))
 > **Salida:** `{'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'} <class 'dict'>`
 > **Nota:** Los diccionarios son útiles para almacenar datos estructurados y acceder a ellos mediante claves.
 
-## Tuplas (`tuple`)
+## 6.7. Tuplas (`tuple`)
 
 ```python
 tupla = (1, 2, 3)
@@ -270,7 +270,7 @@ print("Tupla:", tupla, type(tupla))
 > **Nota:** Las tuplas son útiles para almacenar datos que no deben cambiar, como coordenadas o fechas.
 
 
-## Conjuntos (`set`)
+## 6.8. Conjuntos (`set`)
 
 ```python
 conjunto = {1, 2, 3, 4, 5}
