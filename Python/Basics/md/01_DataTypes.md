@@ -1,283 +1,233 @@
-# 1. Python: Variables y Tipos de Datos
 
-# 2. Variables
+# Python: Variables y Tipos de Datos
 
-Las variables son contenedores que almacenan datos. En Python, no es necesario declarar el tipo de dato de una variable antes de asignarle un valor.
+## 1. Introducción
 
-**Ejemplo de declaración de variables:**
+Python es un lenguaje de programación de tipado dinámico, lo que significa que no es necesario declarar el tipo de dato al crear una variable. 
+Las variables son espacios de memoria donde se almacena información que puede ser utilizada y modificada durante la ejecución de un programa.
 
-```python
-nombre = "Juan" # Cadena de texto (str)
-edad = 30 # Entero (int)
-altura = 1.75 # Decimal (float)
-es_estudiante = True # Booleano (bool)
-```
+---
 
-> **Dato:** Las variables son útiles para almacenar información que se puede utilizar y modificar a lo largo del programa.
+## 2. Declaración de Variables
 
-# 3. **Tipos de datos**
+Una variable se define asignando un valor con el operador `=`. No se requiere una declaración previa de su tipo.
 
-En Python, existen varios tipos de datos que se utilizan para almacenar diferentes tipos de información. A continuación, se presentan los tipos de datos más comunes junto con ejemplos:
-
-## 3.1. Números enteros (`int`)
-
-Los números enteros son valores numéricos sin decimales. Pueden ser positivos o negativos.
-
-**Ejemplo:**
+### 📌 Ejemplo:
 
 ```python
-a = 10
-b = -5
-c = 0
-print("Entero:", a, type(a))
+nombre = "Juan"          # Cadena de texto (str)
+edad = 30                # Número entero (int)
+altura = 1.75            # Número decimal (float)
+es_estudiante = True     # Valor booleano (bool)
 ```
-> **Dato:** Los números enteros son útiles para contar, realizar cálculos matemáticos y representar cantidades discretas.
 
-## 3.2. Números decimales (`float`)
-Los números decimales son valores numéricos que pueden tener una parte fraccionaria. Se utilizan para representar cantidades con precisión.
+> ✅ **Nota:** Las variables son esenciales para escribir programas dinámicos y reutilizables.
 
-**Ejemplo:**
+---
+
+## 3. Tipos de Datos en Python
+
+Python ofrece varios tipos de datos integrados. A continuación, se describen los más comunes:
+
+### 3.1. Enteros (`int`)
+
+Números sin parte decimal. Pueden ser positivos, negativos o cero.
 
 ```python
-b = 3.14
-print("Decimal:", b, type(b))
+numero = 10
+print(numero, type(numero))
 ```
 
->**Dato:** Los números decimales son útiles para cálculos que requieren precisión, como mediciones y finanzas.
+> 🔎 **Uso:** Contadores, edades, índices.
 
-## 3.3. Cadenas de texto (`str`)
+---
 
-Las cadenas de texto son secuencias de caracteres que se utilizan para representar texto. Se definen entre comillas simples o dobles.
+### 3.2. Decimales (`float`)
 
-**Ejemplo:**
-```python
-c = "Hola, mundo"
-d = 'Python es genial'
-print("Cadena:", c, type(c))
-```
-
-> **Dato:** Las cadenas de texto son útiles para almacenar y manipular información textual, como nombres, descripciones y mensajes.
-
-## 3.4. Booleanos (`bool`)
-
-Los booleanos son un tipo de dato que puede tener solo dos valores: `True` (verdadero) o `False` (falso). Se utilizan para representar condiciones lógicas.
-
-**Ejemplo:**
-```python
-d = True
-e = False
-print("Booleano:", d, type(d))
-```
-> **Dato:** Los booleanos son útiles para tomar decisiones en el código, como en estructuras de control (`if`, `while`, etc.).
-
-## 3.5. Listas (`list`)
-
-Las listas son colecciones ordenadas de elementos que pueden contener diferentes tipos de datos. Se definen entre corchetes `[]`.
-
-**Ejemplo:**
-```python
-e = [1, 2, 3, "Hola", True]
-print("Lista:", e, type(e))
-```
-> **Dato:** Las listas son útiles para almacenar múltiples elementos relacionados, como una colección de nombres, números o cualquier otro tipo de dato.
-
-## 3.6. Diccionarios (`dict`)
-
-Los diccionarios son colecciones no ordenadas de pares clave-valor. Se definen entre llaves `{}` y se utilizan para almacenar información de manera estructurada.
-
-**Ejemplo:**
+Números reales con parte fraccionaria.
 
 ```python
-f = {"nombre": "Juan", "edad": 30, "ciudad": "Madrid"}
-print("Diccionario:", f, type(f))
+pi = 3.14159
+print(pi, type(pi))
 ```
 
-> **Dato:** Los diccionarios son útiles para almacenar datos relacionados, como información de una persona, donde cada clave representa un atributo y su valor asociado.
+> 🔎 **Uso:** Mediciones, cálculos precisos.
 
-## 3.7. Tuplas (`tuple`)
+---
 
-Las tuplas son colecciones ordenadas e inmutables de elementos. Se definen entre paréntesis `()` y se utilizan para almacenar datos que no deben cambiar.
+### 3.3. Cadenas de texto (`str`)
 
-**Ejemplo:**
+Secuencias de caracteres, delimitadas por comillas simples o dobles.
+
 ```python
-g = (1, 2, 3)
-print("Tupla:", g, type(g))
+mensaje = "Hola, Python"
+print(mensaje, type(mensaje))
 ```
 
-> **Dato:** Las tuplas son útiles para almacenar datos que no deben modificarse, como coordenadas geográficas o fechas.
+> 🔎 **Uso:** Nombres, mensajes, archivos de texto.
 
-## 3.8. Conjuntos (`set`)
+---
 
-Los conjuntos son colecciones no ordenadas de elementos únicos. Se definen entre llaves `{}` y se utilizan para realizar operaciones matemáticas como la unión, intersección y diferencia.
+### 3.4. Booleanos (`bool`)
 
-**Ejemplo:**
+Solo puede tomar dos valores: `True` o `False`.
+
 ```python
-h = {1, 2, 3, 4, 5}
-print("Conjunto:", h, type(h))
-```
-> **Dato:** Los conjuntos son útiles para almacenar elementos únicos y realizar operaciones matemáticas, como eliminar duplicados de una lista.
-
-# 4. Tabla de tipos de datos en Python
-
-| Tipo de dato | Nombre      | Ejemplo              |
-|--------------|-------------|----------------------|
-| `str`        | Texto       | `"Hola, mundo"`      |
-| `int`        | Entero      | `42`                 |
-| `float`      | Decimal     | `3.14`               |
-| `bool`       | Booleano    | `True`, `False`      |
-| `list`       | Lista       | `[1, 2, 3]`          |
-| `dict`       | Diccionario | `{"clave": "valor"}` |
-| `tuple`      | Tupla       | `(1, 2, 3)`          |
-| `set`        | Conjunto    | `{1, 2, 3}`          |
-
-## 4.1. **Ejemplos completos de tipos de datos en Python**
-
-``` python
-# Números enteros (int)
-a = 10
-print("Entero:", a, type(a))
-
-# Números decimales (float)
-b = 3.14
-print("Decimal:", b, type(b))
-
-# Cadenas de texto (str)
-c = "Hola, mundo"
-print("Cadena:", c, type(c))
-
-# Booleanos (bool)
-d = True
-print("Booleano:", d, type(d))
-
-# Listas (list)
-e = [1, 2, 3, 4, 5]
-print("Lista:", e, type(e))
-
-# Diccionarios (dict)
-f = {"nombre": "Juan", "edad": 30}
-print("Diccionario:", f, type(f))
-
-# Tuplas (tuple)
-g = (1, 2, 3)
-print("Tupla:", g, type(g))
-
-# Conjuntos (set)
-h = {1, 2, 3, 4, 5}
-print("Conjunto:", h, type(h))
+activo = True
+print(activo, type(activo))
 ```
 
-# 5. Resumen de tipos de datos en Python
+> 🔎 **Uso:** Condiciones lógicas y estructuras de control.
 
-## 5.1. **¿Que representa cada tipo de dato?**
+---
 
-- `int`: Son números enteros, como *1, 2, 3*.
+### 3.5. Listas (`list`)
 
-- `float`: Son números decimales, como *3.14, 2.5*.
+Colecciones ordenadas y mutables. Permiten duplicados y elementos de distinto tipo.
 
-- `str`: Son cadenas de texto, como *"Hola, mundo"*.
+```python
+mi_lista = [1, "Hola", True]
+print(mi_lista, type(mi_lista))
+```
 
-- `bool`: Son valores booleanos, como *True* o *False*.
+> 🔎 **Uso:** Conjuntos de elementos relacionados.
 
-- `list`: Son listas, que pueden contener múltiples elementos, como *[1, 2, 3]*.
+---
 
-- `dict`: Son diccionarios, que almacenan pares clave-valor, como *{"nombre": "Juan", "edad": 30}*.
+### 3.6. Diccionarios (`dict`)
 
-- `tuple`: Son tuplas, que son similares a las listas pero inmutables, como *(1, 2, 3)*.
+Estructuras de pares clave-valor. No ordenadas (desde Python 3.7 en adelante sí preservan orden de inserción).
 
-- `set`: Son conjuntos, que almacenan elementos únicos, como *{1, 2, 3}*.
+```python
+persona = {"nombre": "Juan", "edad": 30}
+print(persona, type(persona))
+```
 
+> 🔎 **Uso:** Representación de objetos o registros.
 
-# 6. Ejemplos de uso de tipos de datos
+---
 
-## 6.1. Enteros (`int`)
+### 3.7. Tuplas (`tuple`)
+
+Colecciones ordenadas e inmutables.
+
+```python
+coordenadas = (10.5, 20.3)
+print(coordenadas, type(coordenadas))
+```
+
+> 🔎 **Uso:** Datos fijos como coordenadas o configuraciones.
+
+---
+
+### 3.8. Conjuntos (`set`)
+
+Colecciones no ordenadas de elementos únicos.
+
+```python
+valores = {1, 2, 3, 3}
+print(valores, type(valores))
+```
+
+> 🔎 **Uso:** Operaciones matemáticas con conjuntos, eliminación de duplicados.
+
+---
+
+## 4. Tabla Resumen de Tipos de Datos
+
+| Tipo    | Nombre      | Ejemplo              |
+| ------- | ----------- | -------------------- |
+| `str`   | Cadena      | `"Hola"`             |
+| `int`   | Entero      | `42`                 |
+| `float` | Decimal     | `3.14`               |
+| `bool`  | Booleano    | `True`, `False`      |
+| `list`  | Lista       | `[1, 2, 3]`          |
+| `dict`  | Diccionario | `{"nombre": "Juan"}` |
+| `tuple` | Tupla       | `(1, 2)`             |
+| `set`   | Conjunto    | `{1, 2, 3}`          |
+
+---
+
+## 5. Ejemplos de Uso por Tipo de Dato
+
+### 5.1. Entero (`int`)
 
 ```python
 numero_entero = 42
-print("Número entero:", numero_entero, type(numero_entero))
+print("Entero:", numero_entero, type(numero_entero))
 ```
 
-> **Descripción:** Este ejemplo muestra cómo declarar una variable de tipo entero y su tipo.
-> **Salida:** `42 <class 'int'>`
+---
 
-## 6.2. Decimales (`float`)
+### 5.2. Decimal (`float`)
 
 ```python
 numero_decimal = 3.14
-print("Número decimal:", numero_decimal, type(numero_decimal))
+print("Decimal:", numero_decimal, type(numero_decimal))
 ```
-> **Descripción:** Este ejemplo muestra cómo declarar una variable de tipo decimal y su tipo.
-> **Salida:** `3.14 <class 'float'>`
 
-## 6.3. Cadenas de texto (`str`)
+---
+
+### 5.3. Cadena (`str`)
 
 ```python
-texto = "Hola, Python"
-print("Texto:", texto, type(texto))
+texto = "Hola, mundo"
+print("Cadena:", texto, type(texto))
 ```
-> **Descripción:** Este ejemplo muestra cómo declarar una variable de tipo cadena de texto y su tipo.
-> **Salida:** `Hola, Python <class 'str'>`
 
-## 6.4. Booleanos (`bool`)
+---
+
+### 5.4. Booleano (`bool`)
 
 ```python
-es_mayor_de_edad = True
-if es_mayor_de_edad:
-    print("Eres mayor de edad.")
-else:
-    print("Eres menor de edad.")    
+es_adulto = True
+if es_adulto:
+    print("Es mayor de edad")
 ```
 
-> **Descripción:** Este ejemplo muestra cómo usar una variable booleana en una estructura de control.
-> **Salida:** `Eres mayor de edad.`
-> **Nota:** Puedes cambiar el valor de `es_mayor_de_edad` a `False` para ver el otro resultado.
+---
 
-## 6.5. Listas (`list`)
+### 5.5. Lista (`list`)
 
 ```python
-mi_lista = [1, 2, 3, "Hola", True]
-print("Lista:", mi_lista, type(mi_lista))
+colores = ["rojo", "verde", "azul"]
+print("Lista:", colores, type(colores))
 ```
-> **Descripción:** Este ejemplo muestra cómo declarar una lista que contiene diferentes tipos de datos y su tipo.
 
-> **Salida:** `[1, 2, 3, 'Hola', True] <class 'list'>`
+---
 
-> **Nota:** Las listas son mutables, lo que significa que puedes modificar su contenido después de haberlas creado.
-
-## 6.6. **¿Qué son los diccionarios?**
-
-``` python
-diccionario = {
-    "nombre": "Juan",
-    "edad": 30,
-    "ciudad": "Madrid"
-}
-print("Diccionario:", diccionario, type(diccionario))
-```
-> **Descripción:** Este ejemplo muestra cómo declarar un diccionario que almacena información relacionada y su tipo.
-> **Salida:** `{'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'} <class 'dict'>`
-> **Nota:** Los diccionarios son útiles para almacenar datos estructurados y acceder a ellos mediante claves.
-
-## 6.7. Tuplas (`tuple`)
+### 5.6. Diccionario (`dict`)
 
 ```python
-tupla = (1, 2, 3)
-print("Tupla:", tupla, type(tupla))
+alumno = {"nombre": "Ana", "edad": 22}
+print("Diccionario:", alumno, type(alumno))
 ```
-> **Descripción:** Este ejemplo muestra cómo declarar una tupla, que es similar a una lista pero inmutable, y su tipo.
 
-> **Salida:** `(1, 2, 3) <class 'tuple'>`
+---
 
-> **Nota:** Las tuplas son útiles para almacenar datos que no deben cambiar, como coordenadas o fechas.
-
-
-## 6.8. Conjuntos (`set`)
+### 5.7. Tupla (`tuple`)
 
 ```python
-conjunto = {1, 2, 3, 4, 5}
-print("Conjunto:", conjunto, type(conjunto))
+fecha = (2025, 6, 6)
+print("Tupla:", fecha, type(fecha))
 ```
-> **Descripción:** Este ejemplo muestra cómo declarar un conjunto, que almacena elementos únicos, y su tipo.
 
-> **Salida:** `{1, 2, 3, 4, 5} <class 'set'>`
+---
 
-> **Nota:** Los conjuntos son útiles para realizar operaciones matemáticas como la unión, intersección y diferencia.
+### 5.8. Conjunto (`set`)
+
+```python
+numeros_unicos = {1, 2, 3, 2, 1}
+print("Conjunto:", numeros_unicos, type(numeros_unicos))
+```
+
+---
+
+## 6. Conclusión
+
+Los tipos de datos son fundamentales en la programación con Python, ya que definen cómo se almacena, manipula y procesa la información. 
+Comprender sus diferencias y aplicaciones permite escribir código más claro, eficiente y estructurado.
+
+> 🎓 **Sugerencia del profesor:** Explora funciones como `type()`, `len()` y `isinstance()` para profundizar en el manejo de tipos de datos.
+
+---
