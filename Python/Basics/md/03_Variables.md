@@ -1,6 +1,20 @@
-# 1. Python: Variables
+# Python: Variables y Tipos de Datos
 
-``` python
+## 1. ¿Qué son las variables?
+
+Una **variable** es un nombre simbólico que se utiliza para almacenar datos en la memoria del computador. Cada variable tiene un nombre y un valor asociado. En Python, no es necesario declarar el tipo de variable previamente; el intérprete lo infiere automáticamente según el valor asignado.
+
+---
+
+## 2. ¿Qué son los tipos de datos?
+
+Los **tipos de datos** son categorías que definen la naturaleza de los valores que puede almacenar una variable. Python posee múltiples tipos de datos incorporados, como números enteros (`int`), números decimales (`float`), cadenas de texto (`str`), listas (`list`), diccionarios (`dict`), tuplas (`tuple`), conjuntos (`set`), entre otros.
+
+---
+
+## 3. Ejemplos básicos de variables en Python
+
+```python
 # Texto (str)
 nombre = "Juan"
 
@@ -13,102 +27,74 @@ altura = 1.75
 # Booleano (bool)
 es_estudiante = True
 
-# Listas (list)
+# Lista (list)
 ciudades = ["Madrid", "Barcelona", "Valencia"]
 
-# Diccionarios (dict)
+# Diccionario (dict)
 paises = {
     "Francia": "París",
-    'Reino Unido': 'Londres',
-    'EE.UU.': "Nueva York",
-    'Colombia': 'Bogotá D.C.',
-    'EE.UU.': 'Washington D.C.',
-    'Alemania': 'Berlín'
+    "Reino Unido": "Londres",
+    "EE.UU.": "Washington D.C.",
+    "Colombia": "Bogotá D.C.",
+    "Alemania": "Berlín"
 }
 
-# Tuplas (tuple)
-coordenadas = (40.4168, -3.7038)  # (latitud, longitud)
+# Tupla (tuple)
+coordenadas = (40.4168, -3.7038)
 
-# Conjuntos (set)
+# Conjunto (set)
 conjunto = {1, 2, 3, 4, 5}
 ```
 
-# 2. ¿Qué son las variables?
+---
 
-Las variables son espacios de almacenamiento en la memoria de la computadora que se utilizan para guardar datos. Las variables tienen un nombre y un valor asociado. El nombre de la variable se utiliza para referirse a ese valor en el código. Las variables pueden contener diferentes tipos de datos, como números, cadenas de texto, listas, diccionarios, etc.
+## 4. Tipos de Variables en Python
 
-# 3. **¿Qué son los tipos de datos?**
+### 4.1. Cadena de texto (`str`)
 
-Los tipos de datos son categorías que definen el tipo de valor que una variable puede almacenar. En Python, hay varios tipos de datos incorporados, como enteros (int), flotantes (float), cadenas (str), listas (list), diccionarios (dict), tuplas (tuple) y conjuntos (set). Cada tipo de dato tiene sus propias características y métodos asociados.
+Se utiliza para almacenar secuencias de caracteres.
 
-# 4. **Tipos de variables en Python**
-
-Existen varios tipos de variables en Python, cada uno diseñado para almacenar diferentes tipos de datos. A continuación, se describen algunos de los tipos de variables más comunes:
-
-## 4.1. **Cadena de Texto (str)**: 
-
-Se utiliza para almacenar cadenas de texto. Se define entre comillas
-simples o dobles.
-
-### 4.1.1. **Ejemplo**:
-
-``` python
+```python
 texto = "Hola, mundo!"
 ```
 
-## 4.2. **Número Decimal (float)**:
+### 4.2. Número decimal (`float`)
 
-Se utiliza para almacenar números decimales. Se define con un punto
-decimal.
+Se utiliza para almacenar valores numéricos con parte decimal.
 
-### 4.2.1. **Ejemplo**:
-
-``` python
+```python
 numero_decimal = 3.14
 ```
 
+### 4.3. Número entero (`int`)
 
-## 4.3. **Número Entero (int)**:
+Se utiliza para representar números enteros sin decimales.
 
-Se utiliza para almacenar números enteros. No tiene decimales.
-
-### 4.3.1. **Ejemplo**:
-
-``` python
+```python
 numero_entero = 42
 ```
 
+### 4.4. Booleano (`bool`)
 
-## 4.4. **Booleano (bool)**:
+Representa valores de verdad: `True` o `False`.
 
-Se utiliza para almacenar valores de verdad: `True` o `False`.
-
-### 4.4.1. **Ejemplo**:
-
-``` python
+```python
 es_verdadero = True
 ```
 
+### 4.5. Lista (`list`)
 
-## 4.5. **Lista (list)**:
+Contenedor ordenado y mutable de elementos.
 
-Se utiliza para almacenar una colección de elementos. Se define entre
-corchetes `[]`.
-
-### 4.5.1. **Ejemplo**:
-
-``` python
+```python
 lista = [1, 2, 3, 4, 5]
 ```
 
+### 4.6. Diccionario (`dict`)
 
-## 4.6. **Diccionario (dict)**:
+Almacena pares clave-valor.
 
-Se utiliza para almacenar pares clave-valor. Se define entre llaves `{}`.
-
-### 4.6.1. **Ejemplo**:
-
-``` python
+```python
 diccionario = {
     "nombre": "Juan",
     "edad": 30,
@@ -116,92 +102,72 @@ diccionario = {
 }
 ```
 
-## 4.7. **Tupla (tuple)**: {#7-tupla-tuple}
+### 4.7. Tupla (`tuple`)
 
-Se utiliza para almacenar una colección de elementos inmutables. Se define entre paréntesis `()`.
+Colección ordenada e inmutable de elementos.
 
-### 4.7.1. **Ejemplo**:
-
-``` python
-
+```python
 tupla = (1, 2, 3)
 ```
 
+### 4.8. Conjunto (`set`)
 
-## 4.8. **Conjunto (set)**:
-
-Se utiliza para almacenar una colección de elementos únicos. Se define entre llaves `{}`.
-
-### 4.8.1. **Ejemplo**:
+Colección no ordenada de elementos únicos.
 
 ```python
 conjunto = {1, 2, 3, 4, 5}
 ```
 
-## 4.9. **Ninguno (None)**:
+### 4.9. Ninguno (`None`)
 
-Se utiliza para representar la ausencia de valor o un valor nulo. Se define como `None`.
-
-### 4.9.1. **Ejemplo**
+Representa la ausencia de valor.
 
 ```python
 ninguno = None
 ```
 
+### 4.10. Bytes (`bytes`)
 
-## 4.10. **Bytes (bytes)**:
-
-Se utiliza para almacenar datos binarios. Se define con un prefijo `b` antes de la cadena.
-
-### 4.10.1. **Ejemplo**:
+Almacena datos binarios inmutables.
 
 ```python
 bytes_datos = b"Hola, mundo!"
 ```
 
+### 4.11. Bytearray (`bytearray`)
 
-## 4.11. **Bytearray (bytearray)**:
-
-Se utiliza para almacenar datos binarios mutables. Se define con un prefijo `b` antes de la cadena y se convierte a un objeto `bytearray`.
-
-### 4.11.1. **Ejemplo**:
+Almacena datos binarios mutables.
 
 ```python
 bytearray_datos = bytearray(b"Hola, mundo!")
 ```
 
+### 4.12. Memoryview (`memoryview`)
 
-## 4.12. **Memoryview (memoryview)**: 
-
-Se utiliza para acceder a los datos de un objeto de bytes sin copiarlo. Se define con el constructor `memoryview()`.
-
-
-### 4.12.1. **Ejemplo**:
+Permite el acceso eficiente a datos binarios sin copiarlos.
 
 ```python
 memoryview_datos = memoryview(b"Hola, mundo!")
 ```
 
-## 4.13. **Frozenset (frozenset)**:
+### 4.13. Conjunto congelado (`frozenset`)
 
-```python
-frozenset_datos = frozenset([1, 2, 3, 4, 5])
-Se utiliza para almacenar una colección de elementos únicos e inmutables. Se define con el constructor `frozenset()`.
-```
-
-### 4.13.1. **Ejemplo**:
+Colección inmutable de elementos únicos.
 
 ```python
 frozenset_datos = frozenset([1, 2, 3, 4, 5])
 ```
 
+### 4.14. Número complejo (`complex`)
 
-## 4.14. **Complejo (complex)**:
-
-Se utiliza para almacenar números complejos. Se define con la forma `a + bj`, donde `a` es la parte real y `b` es la parte imaginaria.
-
-### 4.14.1. **Ejemplo**:
+Representa números con parte real e imaginaria.
 
 ```python
 numero_complejo = 3 + 4j
 ```
+
+---
+
+> **Nota final:** Python es un lenguaje de tipado dinámico, lo que significa que el tipo de una variable puede cambiar durante la ejecución del programa si se le asigna un valor de tipo diferente. Sin embargo, se recomienda mantener la coherencia del tipo de dato para evitar errores de interpretación o lógica.
+
+---
