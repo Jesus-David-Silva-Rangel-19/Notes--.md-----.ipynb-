@@ -1,20 +1,13 @@
 # 1. **¿Qué son los condicionales?**
 
-Los condicionales son estructuras de control que permiten ejecutar un
-bloque de código si se cumple una condición determinada.
+Los condicionales son estructuras de control que permiten ejecutar un bloque de código si se cumple una condición determinada.
 
 En Python, los condicionales más comunes son:
 
-- `if`: Se utiliza para evaluar una condición y ejecutar un bloque de
-  código si la condición es verdadera.
-
-- `elif`: Se utiliza para evaluar una segunda condición si la primera
-  condición es falsa.
-
-- `else`: Se utiliza para ejecutar un bloque de código si todas las
-  condiciones anteriores son falsas.
-
-- `if` y `else` pueden ser anidados para evaluar múltiples condiciones.
+* `if`: Se utiliza para evaluar una condición y ejecutar un bloque de código si la condición es verdadera.
+* `elif`: Se utiliza para evaluar una segunda condición si la primera condición es falsa.
+* `else`: Se utiliza para ejecutar un bloque de código si todas las condiciones anteriores son falsas.
+* `if` y `else` pueden ser anidados para evaluar múltiples condiciones.
 
 ------------------------------------------------------------------------
 
